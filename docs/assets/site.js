@@ -5,6 +5,22 @@ var mb=d.querySelector('.menu-btn');if(mb)mb.onclick=function(){d.querySelector(
 var io='IntersectionObserver'in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');if(e.target.dataset.count)count(e.target);io.unobserve(e.target)}})},{threshold:.12}):null;
 d.querySelectorAll('.reveal,[data-count]').forEach(function(el){io?io.observe(el):el.classList.add('in')});
 function count(el){var n=+el.dataset.count,t0=performance.now();(function f(t){var k=Math.min(1,(t-t0)/1400);el.textContent=Math.round(n*(1-Math.pow(1-k,3))).toLocaleString();if(k<1)requestAnimationFrame(f)})(t0)}
+// site search
+(function(){var R=document.documentElement.getAttribute('data-root')||document.body.getAttribute('data-root')||'./';var IDX=null,L=null;
+var K={coin:'Coin',event:'Event',guide:'Guide',compare:'Compare',glossary:'Glossary',explainer:'Explainer',hub:'Coin',timeline:'Timeline'};
+function load(){if(IDX)return Promise.resolve(IDX);if(!L)L=fetch(R+'search.json?v='+(window.CHB_V||'')).then(function(r){return r.json()}).then(function(d){IDX=d;return d});return L}
+function find(q){q=q.toLowerCase().trim();if(!q||!IDX)return[];var t=q.split(/\s+/),out=[];IDX.forEach(function(x){var n=x.t.toLowerCase(),s=(x.s||'').toLowerCase(),sc=0;
+if(s&&s===q)sc=100;else if(n===q)sc=90;else if(n.indexOf(q)===0)sc=70;else if(s&&s.indexOf(q)===0)sc=60;else if(t.every(function(w){return n.indexOf(w)>=0}))sc=40;else return;
+if(x.k==='coin')sc+=10;out.push([sc,x])});out.sort(function(a,b){return b[0]-a[0]||a[1].t.length-b[1].t.length});return out.slice(0,8).map(function(a){return a[1]})}
+document.querySelectorAll('form.hsearch').forEach(function(f){var i=f.querySelector('input'),u=f.querySelector('.sugg'),res=[],sel=-1;
+function close(){u.hidden=true;i.setAttribute('aria-expanded','false')}
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function draw(){res=find(i.value);if(!res.length){u.innerHTML=i.value.trim()?'<li><a href="'+R+'coins/"><span>No matches. Browse all coins</span></a></li>':'';u.hidden=!i.value.trim();return}
+u.innerHTML=res.map(function(x,n){return '<li role="option"'+(n===sel?' class="on" aria-selected="true"':'')+'><a href="'+R+x.u+'"><span>'+esc(x.t)+(x.s?' <small>'+esc(x.s)+'</small>':'')+'</span><small>'+(K[x.k]||'Page')+'</small></a></li>'}).join('');u.hidden=false;i.setAttribute('aria-expanded','true')}
+i.addEventListener('focus',load);i.addEventListener('input',function(){sel=-1;load().then(draw)});
+i.addEventListener('keydown',function(e){if(e.key==='ArrowDown'||e.key==='ArrowUp'){if(!res.length)return;e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:-1)+res.length)%res.length;draw()}else if(e.key==='Escape')close()});
+f.addEventListener('submit',function(e){e.preventDefault();load().then(function(){var r=find(i.value),p=sel>=0?res[sel]:r[0];location.href=p?R+p.u:R+'coins/'})});
+document.addEventListener('click',function(e){if(!f.contains(e.target))close()})})})();
 // newsletter
 d.querySelectorAll('form.nl').forEach(function(f){f.onsubmit=function(e){e.preventDefault();var v=f.email.value.trim(),m=f.querySelector('.msg')||f.parentNode.querySelector('.msg');if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){m.textContent='Please enter a valid email address.';return}
 try{var l=JSON.parse(localStorage.getItem('ct-newsletter')||'[]');if(l.indexOf(v)<0)l.push(v);localStorage.setItem('ct-newsletter',JSON.stringify(l))}catch(x){}

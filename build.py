@@ -146,6 +146,7 @@ def diagram(kind):
     return ""
 # ---------- page shell ----------
 PAGES = {}; REPORT = []
+SEARCH = []
 NAV = [("coins/","coins","Coins"),("guides/","book-open","Guides"),("compare/","git-compare","Compare"),("glossary/","scroll-text","Glossary")]
 def nfa(): return f'<div class="nfa">{icon("shield-alert")}<span><b>Not financial advice.</b> This is history and education only. We make no buy or sell recommendations and no price predictions.</span></div>'
 def sources_box(srcs, extra_price=None):
@@ -157,6 +158,7 @@ def ld_article(path, title, desc):
 def ld_crumbs(crumbs):
     return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":ORIGIN+"/"+p} for i,(n,p) in enumerate(crumbs)]}
 def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_count=None, show_nfa=False):
+    if kind!="year" and path: SEARCH.append({"t":title.split(" | ")[0],"u":path,"k":kind})
     if len(title) > 60:
         for _c in COINS.values():
             if _c["name"] in title and len(_c["name"])>14: title = title.replace(_c["name"], _c["sym"])
@@ -188,6 +190,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 </head><body>
 <header class="top"><div class="wrap"><a class="brand" href="{R}">{LOGO}<span>Crypto<b>HistoryBook</b></span></a>
 <nav class="main" aria-label="Main">{navh}</nav>
+<form class="hsearch" role="search" action="{R}coins/" autocomplete="off"><label class="sr" for="q" hidden>Search</label>{icon("search")}<input id="q" type="search" name="q" placeholder="Search coins, events, guides" aria-label="Search the site" aria-autocomplete="list" aria-expanded="false"><ul class="sugg" role="listbox" hidden></ul></form>
 <button class="thm menu-btn" type="button" aria-label="Menu">{icon("menu")}</button>
 <button class="thm" type="button" aria-label="Switch light or dark mode" onclick="var d=document.documentElement,t=d.getAttribute('data-theme')=='dark'?'light':'dark';d.setAttribute('data-theme',t);try{{localStorage.setItem('ct-theme',t)}}catch(e){{}}">{icon("moon","ic i-moon")}{icon("sun","ic i-sun")}</button></div></header>
 <main class="wrap">{('<nav class="crumb" aria-label="Breadcrumb">'+cr+'</nav>') if cr else ''}
@@ -201,13 +204,13 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 <div><h4>Learn</h4><a href="{R}guides/">Guides</a><a href="{R}compare/">Comparisons</a><a href="{R}glossary/">Glossary</a><a href="{R}sources/">Data sources</a></div>
 <div><h4>About</h4><a href="{R}about/">About</a><a href="{R}privacy/">Privacy</a><a href="{R}#newsletter">Newsletter</a></div></div>
 <p class="small">Icons by Lucide (ISC license). Coin marks are simplified drawings of trademarks of their respective projects.</p></div></footer>
-<script src="{R}assets/site.js?v={BUILD_V}" defer></script>
+<script>window.CHB_V="{BUILD_V}"</script><script src="{R}assets/site.js?v={BUILD_V}" defer></script>
 </body></html>'''
     html = html.replace("__R__", R)
     assert "\u2014" not in html and "\u2013" not in html, path
     PAGES[path] = html
 def newsletter():
-    return f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CryptoHistoryBook letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p><form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
+    return f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CryptoHistoryBook Letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p><form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
 def ev_js(c, evs, focus=None, R=""):
     out = []
     for x in evs:
@@ -387,7 +390,7 @@ cc = "".join(f'''<a class="card coincard reveal" href="{k["slug"]}/"><span class
 feat = [("guides/xrp-vs-sec-explained/","scale","XRP vs SEC, explained","The five year case in four steps."),("guides/why-doge-pumps/","rocket","Why DOGE pumps","Memes, Musk and momentum."),("how-did-the-merge-affect-ethereum/","merge","How the Merge affected Ethereum","Energy, supply and what did not change."),("bitcoin/events/2024-spot-etf-approval/","landmark","Spot bitcoin ETFs","The Jan 10, 2024 approval."),("solana/outage-history/","power-off","Solana outage history","Every major halt, 2021 to 2024."),("dogecoin/elon-musk-tweet-timeline/","message-circle","Musk and Dogecoin","The tweet timeline with prices.")]
 basics = [("guides/what-is-crypto/","sparkles","What is crypto?","The two minute version."),("guides/crypto-wallets/","wallet","Wallets, explained","Keys, custody and safety."),("guides/how-blockchains-work/","blocks","How blockchains work","Blocks, hashes and consensus.")]
 nev = len(EVENTS); npts = sum(len(SER[c]["points"]) for c in COINS); nsrc = len({u for x in EVENTS for t,u in x["sources"]})
-body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" style="width:300px;height:300px;background:#fde68a;right:10%;top:-80px"></span><span class="blob" style="width:240px;height:240px;background:#38bdf8;left:-60px;bottom:-60px;animation-delay:-4s"></span>{hero_art()}<div class="inner"><span class="chip">{icon("history")} Crypto history, made clickable</span><h1>Every big crypto moment, on one timeline.</h1><p class="lede">Rallies, crashes, forks and court fights for Bitcoin, Ethereum, XRP, Dogecoin and Solana. Each one dated, sourced and pinned to the real price that day.</p><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn w" href="bitcoin/history/">{icon("chart-spline")}Explore the Bitcoin timeline</a><a class="btn o" href="guides/what-is-crypto/" style="color:#fff">{icon("book-open")}New to crypto?</a></div></div></section>
+body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" style="width:300px;height:300px;background:#fde68a;right:10%;top:-80px"></span><span class="blob" style="width:240px;height:240px;background:#38bdf8;left:-60px;bottom:-60px;animation-delay:-4s"></span>{hero_art()}<div class="inner"><span class="chip">{icon("history")} Crypto history, made clickable</span><h1>Every big crypto moment, on one timeline.</h1><p class="lede">Rallies, crashes, forks and court fights for the top 100 coins, from Bitcoin to the newest chains. Each one dated, sourced and pinned to the real price that day.</p><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn w" href="bitcoin/history/">{icon("chart-spline")}Explore the Bitcoin timeline</a><a class="btn o" href="guides/what-is-crypto/" style="color:#fff">{icon("book-open")}New to crypto?</a></div></div></section>
 <div class="stats"><div class="stat reveal" style="background:#7c3aed"><b data-count="{nev}">{nev}</b><span>dated events</span></div><div class="stat reveal" style="background:#ec4899"><b data-count="{npts}">{npts}</b><span>daily closes charted</span></div><div class="stat reveal" style="background:#f97316"><b data-count="{nsrc}">{nsrc}</b><span>sources cited</span></div><div class="stat reveal" style="background:#0ea5e9"><b data-count="5">5</b><span>coin timelines</span></div></div>
 <h2>Pick a coin</h2><div class="grid g5">{cc}</div>
 <h2>All {len(ORDER)} coins</h2>{coin_index("./")}
@@ -396,7 +399,7 @@ body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" st
 <h2>Start with the basics</h2>{cardlist(R, basics, ("#0ea5e9","#10b981","#7c3aed"))}
 <h2>Compare coins</h2><div class="grid g2">{"".join(f'<a class="card reveal" href="compare/{cp["slug"]}/" style="display:flex;align-items:center;gap:14px">{coinlogo(cp["a"])}{coinlogo(cp["b"])}<b>{e(TITLES["compare/"+cp["slug"]+"/"])}</b></a>' for cp in COMPARES)}</div>
 {newsletter()}'''
-page("", "CryptoHistoryBook: Crypto History, Timelines and Guides", "Interactive timelines of Bitcoin, Ethereum, XRP, Dogecoin and Solana: dated events, sourced historical prices and plain English guides.", body, [], [("Bitcoin whitepaper","https://bitcoin.org/bitcoin.pdf"),("Ethereum upgrade history","https://ethereum.org/en/history/"),("SEC v. Ripple docket","https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/")], ld=[itemlist("Coin timelines", [(k["name"]+" timeline", k["slug"]+"/history/") for k in COINS.values()])], kind="home", show_nfa=True)
+page("", "CryptoHistoryBook: Crypto History, Timelines and Guides", "Interactive timelines of the top 100 crypto coins: dated events, sourced historical prices and plain English guides.", body, [], [("Bitcoin whitepaper","https://bitcoin.org/bitcoin.pdf"),("Ethereum upgrade history","https://ethereum.org/en/history/"),("SEC v. Ripple docket","https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/")], ld=[itemlist("Coin timelines", [(k["name"]+" timeline", k["slug"]+"/history/") for k in COINS.values()])], kind="home", show_nfa=True)
 # ---------- write ----------
 if os.path.isdir(OUT): shutil.rmtree(OUT)
 os.makedirs(OUT+"/assets"); shutil.copytree("data", OUT+"/data"); os.makedirs(OUT+"/img/coins")
@@ -408,6 +411,12 @@ seo.BEACON_SITE, seo.BEACON_DOMAIN = BEACON_SITE, LIVE_HOST
 for p, h in PAGES.items():
     os.makedirs(os.path.join(OUT, p), exist_ok=True)
     open(os.path.join(OUT, p, "index.html"), "w").write(seo.add_beacon(h))
+_seen=set(); _idx=[]
+for _k,_c in COINS.items():
+    _idx.append({"t":_c["name"],"s":_c["sym"],"u":_c["slug"]+"/","k":"coin"}); _seen.add(_c["slug"]+"/")
+for _x in SEARCH:
+    if _x["u"] not in _seen: _seen.add(_x["u"]); _idx.append(_x)
+json.dump(_idx, open(OUT+"/search.json","w"), separators=(",",":"))
 nf = PAGES["about/"].replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/cointimelines-proto/'>Go to the home page</a></p>",1)
 open(OUT+"/404.html","w").write(seo.add_beacon(nf.replace('data-root="../"','data-root="/cointimelines-proto/"').replace('href="../','href="/cointimelines-proto/').replace('src="../','src="/cointimelines-proto/')))
 open(OUT+"/robots.txt","w").write("User-agent: *\nDisallow: /\n")

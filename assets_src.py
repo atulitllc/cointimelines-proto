@@ -107,7 +107,7 @@ footer h4{color:var(--fg);margin:0 0 8px;font-family:"Space Grotesk"}
 .g4{grid-template-columns:repeat(4,1fr)}@media(max-width:1100px){.g4{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.g4{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.g4{grid-template-columns:1fr}}
 .cgi{padding:16px}.cgi .top{display:flex;gap:12px;align-items:center}.cgi .tags{margin:10px 0 6px}.cgi .chip.k{font-size:.72rem;padding:3px 8px}
 img.logo{width:44px;height:44px;border-radius:50%;flex:none;object-fit:contain}img.ic{width:1.3em;height:1.3em;border-radius:50%}.vs img.logo{width:64px;height:64px}.coincard img.logo{width:44px;height:44px}
-.cfilter{display:flex;flex-direction:column;gap:12px;margin:14px 0 18px}.search{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:10px 14px;max-width:520px}.search input{border:0;background:transparent;color:var(--fg);font-size:1rem;flex:1;outline:none}
+.hsearch{position:relative;display:flex;align-items:center;gap:6px;background:var(--card);border:1.5px solid var(--bd);border-radius:12px;padding:6px 10px;margin-left:auto;width:240px}.hsearch input{border:0;background:transparent;color:var(--fg);font-size:.92rem;flex:1;min-width:0;outline:none}.hsearch .ic{width:16px;height:16px;opacity:.7}.sugg{position:absolute;top:calc(100% + 6px);left:0;right:0;min-width:300px;list-style:none;margin:0;padding:6px;background:var(--card);border:1.5px solid var(--bd);border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.18);z-index:60;max-height:380px;overflow:auto}.sugg li a{display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border-radius:9px;color:var(--fg);text-decoration:none;font-size:.92rem}.sugg li a small{opacity:.6;white-space:nowrap}.sugg li.on a,.sugg li a:hover{background:var(--bd)}@media(max-width:860px){.top .wrap{flex-wrap:wrap;height:auto!important;min-height:64px;row-gap:0;padding-top:8px}.hsearch{order:9;width:100%;flex-basis:100%;margin:0 0 10px}}.cfilter{display:flex;flex-direction:column;gap:12px;margin:14px 0 18px}.search{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:10px 14px;max-width:520px}.search input{border:0;background:transparent;color:var(--fg);font-size:1rem;flex:1;outline:none}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.cchip{border:1.5px solid var(--bd);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 14px;font-weight:600;cursor:pointer;font-size:.86rem}.cchip.on{background:var(--grad);color:#fff;border-color:transparent}
 .draw{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 2.4s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}
 """
@@ -118,6 +118,22 @@ var mb=d.querySelector('.menu-btn');if(mb)mb.onclick=function(){d.querySelector(
 var io='IntersectionObserver'in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');if(e.target.dataset.count)count(e.target);io.unobserve(e.target)}})},{threshold:.12}):null;
 d.querySelectorAll('.reveal,[data-count]').forEach(function(el){io?io.observe(el):el.classList.add('in')});
 function count(el){var n=+el.dataset.count,t0=performance.now();(function f(t){var k=Math.min(1,(t-t0)/1400);el.textContent=Math.round(n*(1-Math.pow(1-k,3))).toLocaleString();if(k<1)requestAnimationFrame(f)})(t0)}
+// site search
+(function(){var R=document.documentElement.getAttribute('data-root')||document.body.getAttribute('data-root')||'./';var IDX=null,L=null;
+var K={coin:'Coin',event:'Event',guide:'Guide',compare:'Compare',glossary:'Glossary',explainer:'Explainer',hub:'Coin',timeline:'Timeline'};
+function load(){if(IDX)return Promise.resolve(IDX);if(!L)L=fetch(R+'search.json?v='+(window.CHB_V||'')).then(function(r){return r.json()}).then(function(d){IDX=d;return d});return L}
+function find(q){q=q.toLowerCase().trim();if(!q||!IDX)return[];var t=q.split(/\s+/),out=[];IDX.forEach(function(x){var n=x.t.toLowerCase(),s=(x.s||'').toLowerCase(),sc=0;
+if(s&&s===q)sc=100;else if(n===q)sc=90;else if(n.indexOf(q)===0)sc=70;else if(s&&s.indexOf(q)===0)sc=60;else if(t.every(function(w){return n.indexOf(w)>=0}))sc=40;else return;
+if(x.k==='coin')sc+=10;out.push([sc,x])});out.sort(function(a,b){return b[0]-a[0]||a[1].t.length-b[1].t.length});return out.slice(0,8).map(function(a){return a[1]})}
+document.querySelectorAll('form.hsearch').forEach(function(f){var i=f.querySelector('input'),u=f.querySelector('.sugg'),res=[],sel=-1;
+function close(){u.hidden=true;i.setAttribute('aria-expanded','false')}
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function draw(){res=find(i.value);if(!res.length){u.innerHTML=i.value.trim()?'<li><a href="'+R+'coins/"><span>No matches. Browse all coins</span></a></li>':'';u.hidden=!i.value.trim();return}
+u.innerHTML=res.map(function(x,n){return '<li role="option"'+(n===sel?' class="on" aria-selected="true"':'')+'><a href="'+R+x.u+'"><span>'+esc(x.t)+(x.s?' <small>'+esc(x.s)+'</small>':'')+'</span><small>'+(K[x.k]||'Page')+'</small></a></li>'}).join('');u.hidden=false;i.setAttribute('aria-expanded','true')}
+i.addEventListener('focus',load);i.addEventListener('input',function(){sel=-1;load().then(draw)});
+i.addEventListener('keydown',function(e){if(e.key==='ArrowDown'||e.key==='ArrowUp'){if(!res.length)return;e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:-1)+res.length)%res.length;draw()}else if(e.key==='Escape')close()});
+f.addEventListener('submit',function(e){e.preventDefault();load().then(function(){var r=find(i.value),p=sel>=0?res[sel]:r[0];location.href=p?R+p.u:R+'coins/'})});
+document.addEventListener('click',function(e){if(!f.contains(e.target))close()})})})();
 // newsletter
 d.querySelectorAll('form.nl').forEach(function(f){f.onsubmit=function(e){e.preventDefault();var v=f.email.value.trim(),m=f.querySelector('.msg')||f.parentNode.querySelector('.msg');if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){m.textContent='Please enter a valid email address.';return}
 try{var l=JSON.parse(localStorage.getItem('ct-newsletter')||'[]');if(l.indexOf(v)<0)l.push(v);localStorage.setItem('ct-newsletter',JSON.stringify(l))}catch(x){}
