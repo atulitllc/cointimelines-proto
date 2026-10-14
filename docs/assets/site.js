@@ -9,6 +9,9 @@ function count(el){var n=+el.dataset.count,t0=performance.now();(function f(t){v
 d.querySelectorAll('form.nl').forEach(function(f){f.onsubmit=function(e){e.preventDefault();var v=f.email.value.trim(),m=f.querySelector('.msg')||f.parentNode.querySelector('.msg');if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){m.textContent='Please enter a valid email address.';return}
 try{var l=JSON.parse(localStorage.getItem('ct-newsletter')||'[]');if(l.indexOf(v)<0)l.push(v);localStorage.setItem('ct-newsletter',JSON.stringify(l))}catch(x){}
 m.textContent='Saved on this device only. Nothing is sent yet; the newsletter has not launched.';f.reset()}});
+// coin filter
+var q=d.getElementById('coin-q'),cat='';function flt(){var t=(q&&q.value||'').toLowerCase().trim(),n=0;d.querySelectorAll('.cgi').forEach(function(x){var ok=(!t||x.dataset.name.indexOf(t)>=0)&&(!cat||x.dataset.cats.split('|').indexOf(cat)>=0);x.hidden=!ok;if(ok){n++;x.classList.add('in')}});var z=d.querySelector('.cnone');if(z)z.hidden=n>0}
+if(q)q.oninput=flt;d.querySelectorAll('.cchip').forEach(function(b){b.onclick=function(){d.querySelectorAll('.cchip').forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.cat;flt()}});
 // charts
 var KC={launch:'#0ea5e9',rally:'#10b981',crash:'#ef4444',upgrade:'#7c3aed',legal:'#f59e0b',fork:'#ec4899',outage:'#64748b',milestone:'#f97316'};
 var cache={};function load(c){return cache[c]||(cache[c]=fetch(R+'data/'+c+'.json').then(function(r){return r.json()}))}

@@ -1,0 +1,5 @@
+apt APT aptos
+dash DASH dash
+inj INJ injective-protocol
+vet VET vechain
+pi PI pi-network

@@ -784,6 +784,3910 @@
   "indexable": false
  },
  {
+  "path": "/bnb/",
+  "words": 385,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/",
+  "words": 253,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2017/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2019/",
+  "words": 179,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2020/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2023/",
+  "words": 201,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2025/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2017-bnb-launches-in-the-binance-ico/",
+  "words": 88,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2017-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2019-binance-chain-mainnet/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2020-bnb-smart-chain-launches/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2023-binance-and-cz-plead-guilty/",
+  "words": 147,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2025-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bnb/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/",
+  "words": 339,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/tron/history/",
+  "words": 230,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/history/2018/",
+  "words": 304,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/tron/history/2023/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/history/2024/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/history/2025/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2018-first-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2018-tron-mainnet-genesis/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2018-tron-completes-bittorrent-purchase/",
+  "words": 129,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2023-sec-sues-justin-sun/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2024-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tron/events/2025-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/",
+  "words": 329,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/",
+  "words": 204,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/2016/",
+  "words": 102,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/2019/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/2020/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/2022/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/history/2026/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/events/2016-zcash-launches/",
+  "words": 76,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/events/2019-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/events/2020-canopy-upgrade-and-first-halving/",
+  "words": 133,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/events/2022-nu5-and-halo-2/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zcash/events/2026-highest-close-in-our-data/",
+  "words": 130,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/",
+  "words": 271,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/history/",
+  "words": 160,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/history/2024/",
+  "words": 114,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/history/2025/",
+  "words": 241,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/history/2026/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/events/2024-hype-genesis-and-airdrop/",
+  "words": 83,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/events/2025-jelly-market-delisted/",
+  "words": 87,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/events/2025-first-close-in-our-data/",
+  "words": 132,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hyperliquid/events/2026-highest-close-in-our-data/",
+  "words": 123,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/",
+  "words": 345,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/monero/history/",
+  "words": 220,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/history/2014/",
+  "words": 95,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/history/2019/",
+  "words": 239,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/history/2022/",
+  "words": 176,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/history/2026/",
+  "words": 247,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2014-bitmonero-launches/",
+  "words": 69,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2019-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2019-randomx-mining-algorithm/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2022-bulletproofs-and-bigger-rings/",
+  "words": 122,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2026-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/monero/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/",
+  "words": 341,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/",
+  "words": 219,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/2017/",
+  "words": 104,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/2019/",
+  "words": 239,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/2022/",
+  "words": 182,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/history/2023/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2017-link-token-sale/",
+  "words": 77,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2019-first-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2019-chainlink-mainnet/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2021-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2022-staking-v0-1/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chainlink/events/2023-lowest-close-after-the-peak/",
+  "words": 125,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/",
+  "words": 353,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/",
+  "words": 237,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2017/",
+  "words": 90,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2018/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2020/",
+  "words": 175,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2021/",
+  "words": 240,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2024/",
+  "words": 179,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2017-cardano-byron-launch/",
+  "words": 63,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2018-first-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2020-shelley-hard-fork/",
+  "words": 125,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2021-highest-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2021-alonzo-smart-contracts/",
+  "words": 122,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2024-chang-hard-fork/",
+  "words": 122,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cardano/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/",
+  "words": 321,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/history/",
+  "words": 193,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/history/2019/",
+  "words": 161,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/history/2025/",
+  "words": 198,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/history/2026/",
+  "words": 252,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/events/2019-new-york-ag-action-against-bitfinex/",
+  "words": 94,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/events/2019-leo-token-sale/",
+  "words": 80,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/events/2025-first-close-in-our-data/",
+  "words": 142,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/events/2026-highest-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/leo/events/2026-lowest-close-after-the-peak/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/",
+  "words": 360,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/",
+  "words": 225,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2014/",
+  "words": 86,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2018/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2019/",
+  "words": 182,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2022/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/history/2024/",
+  "words": 173,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2014-stellar-launches/",
+  "words": 60,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2018-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2019-sdf-burns-55-billion-xlm/",
+  "words": 127,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2022-lowest-close-after-the-peak/",
+  "words": 132,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stellar/events/2024-soroban-smart-contracts/",
+  "words": 112,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/",
+  "words": 299,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/history/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/history/2020/",
+  "words": 277,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/history/2022/",
+  "words": 193,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/history/2026/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/events/2020-near-mainnet-launch/",
+  "words": 70,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/events/2020-token-transfers-enabled/",
+  "words": 74,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/events/2020-first-close-in-our-data/",
+  "words": 144,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/events/2022-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/near/events/2026-lowest-close-after-the-peak/",
+  "words": 131,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/",
+  "words": 309,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/history/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/history/2017/",
+  "words": 292,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/history/2018/",
+  "words": 247,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/events/2017-bitcoin-cash-forks-from-bitcoin/",
+  "words": 67,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/events/2017-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/events/2017-highest-close-in-our-data/",
+  "words": 132,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/events/2018-bitcoin-sv-split/",
+  "words": 136,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin-cash/events/2018-lowest-close-after-the-peak/",
+  "words": 122,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/",
+  "words": 350,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/",
+  "words": 233,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2011/",
+  "words": 83,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2016/",
+  "words": 195,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2017/",
+  "words": 161,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2019/",
+  "words": 166,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2021/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2022/",
+  "words": 162,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2011-litecoin-launches/",
+  "words": 57,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2016-first-close-in-our-data/",
+  "words": 132,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2017-litecoin-activates-segwit/",
+  "words": 105,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2019-second-litecoin-halving/",
+  "words": 109,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2021-highest-close-in-our-data/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2022-mweb-privacy-upgrade/",
+  "words": 107,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/litecoin/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/",
+  "words": 326,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/history/",
+  "words": 205,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/history/2018/",
+  "words": 92,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/history/2020/",
+  "words": 236,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/history/2021/",
+  "words": 225,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2018-uniswap-v1-launches/",
+  "words": 62,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2020-uni-token-airdrop/",
+  "words": 74,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2020-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2021-highest-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2021-uniswap-v3/",
+  "words": 108,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/uniswap/events/2026-lowest-close-after-the-peak/",
+  "words": 118,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/",
+  "words": 311,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/history/",
+  "words": 199,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/history/2020/",
+  "words": 230,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/history/2021/",
+  "words": 241,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/events/2020-avalanche-mainnet-launch/",
+  "words": 63,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/events/2020-first-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/events/2021-avalanche-rush-incentives/",
+  "words": 126,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/events/2021-highest-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/avalanche/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/",
+  "words": 312,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/sui/history/",
+  "words": 204,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/history/2023/",
+  "words": 240,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/history/2024/",
+  "words": 175,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/history/2025/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/events/2023-sui-mainnet-launch/",
+  "words": 115,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/events/2023-first-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/events/2024-sui-network-halt/",
+  "words": 125,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/events/2025-highest-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sui/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/",
+  "words": 322,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/history/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/history/2019/",
+  "words": 114,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/history/2020/",
+  "words": 101,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/history/2024/",
+  "words": 257,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/events/2019-sec-halts-telegram-s-gram/",
+  "words": 83,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/events/2020-telegram-steps-away/",
+  "words": 79,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/events/2024-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/events/2024-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/toncoin/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/",
+  "words": 279,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/history/",
+  "words": 179,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/history/2019/",
+  "words": 234,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/history/2021/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/history/2022/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/events/2019-hedera-open-access/",
+  "words": 68,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/events/2019-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/events/2021-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/hedera/events/2022-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/",
+  "words": 329,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/history/",
+  "words": 214,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/history/2021/",
+  "words": 329,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/history/2023/",
+  "words": 175,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/history/2026/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/events/2021-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/events/2021-vitalik-donates-and-burns-shib/",
+  "words": 141,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/events/2021-highest-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/events/2023-shibarium-mainnet/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/shiba-inu/events/2026-lowest-close-after-the-peak/",
+  "words": 130,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/",
+  "words": 311,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/history/",
+  "words": 199,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/history/2021/",
+  "words": 351,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/events/2021-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/events/2021-cronos-mainnet/",
+  "words": 106,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/events/2021-crypto-com-arena-deal/",
+  "words": 122,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/events/2021-highest-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cronos/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/",
+  "words": 288,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/history/",
+  "words": 193,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/history/2024/",
+  "words": 332,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/events/2024-usde-public-launch/",
+  "words": 61,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/events/2024-ena-airdrop/",
+  "words": 114,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/events/2024-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/events/2024-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethena/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/",
+  "words": 324,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/aave/history/",
+  "words": 214,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/history/2020/",
+  "words": 266,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/history/2022/",
+  "words": 228,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2020-aave-protocol-launches/",
+  "words": 57,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2020-lend-to-aave-migration/",
+  "words": 71,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2020-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2021-highest-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2022-aave-v3/",
+  "words": 114,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aave/events/2022-lowest-close-after-the-peak/",
+  "words": 125,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/",
+  "words": 292,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/history/",
+  "words": 186,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/history/2024/",
+  "words": 91,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/history/2025/",
+  "words": 297,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/events/2024-pump-fun-launches/",
+  "words": 62,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/events/2025-pump-token-sale/",
+  "words": 71,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/events/2025-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/events/2025-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pump-fun/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/",
+  "words": 267,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/history/",
+  "words": 185,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/history/2023/",
+  "words": 92,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/history/2024/",
+  "words": 292,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/events/2023-ousg-tokenized-treasuries/",
+  "words": 62,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/events/2024-ondo-becomes-transferable/",
+  "words": 67,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/events/2024-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ondo/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/",
+  "words": 354,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/history/",
+  "words": 232,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/history/2017/",
+  "words": 101,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/history/2020/",
+  "words": 279,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/history/2021/",
+  "words": 234,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2017-parity-wallet-freeze/",
+  "words": 70,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2020-polkadot-genesis/",
+  "words": 71,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2020-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2020-dot-redenomination/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2021-highest-close-in-our-data/",
+  "words": 132,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2021-first-parachain-auctions/",
+  "words": 118,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polkadot/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/",
+  "words": 320,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/history/",
+  "words": 207,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/history/2023/",
+  "words": 234,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/history/2024/",
+  "words": 236,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/events/2023-worldcoin-launches/",
+  "words": 110,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/events/2023-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/events/2024-highest-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/events/2024-rebrand-to-world/",
+  "words": 123,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/worldcoin/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/",
+  "words": 303,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/history/",
+  "words": 199,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/history/2024/",
+  "words": 102,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/history/2025/",
+  "words": 308,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/history/2026/",
+  "words": 194,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/events/2024-wlfi-token-sale-opens/",
+  "words": 73,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/events/2025-wlfi-becomes-tradable/",
+  "words": 115,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/events/2025-first-close-in-our-data/",
+  "words": 145,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/events/2025-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/world-liberty-financial/events/2026-lowest-close-after-the-peak/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/",
+  "words": 289,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/",
+  "words": 177,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/2017/",
+  "words": 88,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/2020/",
+  "words": 112,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/2024/",
+  "words": 98,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/2025/",
+  "words": 205,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/history/2026/",
+  "words": 197,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/events/2017-dai-launches/",
+  "words": 61,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/events/2020-black-thursday-liquidations/",
+  "words": 88,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/events/2024-sky-and-usds-launch/",
+  "words": 76,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/events/2025-first-close-in-our-data/",
+  "words": 146,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sky/events/2026-highest-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/",
+  "words": 279,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/history/",
+  "words": 183,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/history/2023/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/history/2026/",
+  "words": 309,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/events/2023-bitdao-votes-to-become-mantle/",
+  "words": 64,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/events/2023-mantle-mainnet/",
+  "words": 63,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/events/2026-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/events/2026-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/mantle/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/",
+  "words": 282,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/history/",
+  "words": 182,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/history/2021/",
+  "words": 316,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/history/2026/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/events/2021-internet-computer-genesis/",
+  "words": 120,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/events/2021-first-close-in-our-data/",
+  "words": 140,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/events/2021-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/internet-computer/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/",
+  "words": 279,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/history/",
+  "words": 182,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/history/2024/",
+  "words": 111,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/history/2025/",
+  "words": 195,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/history/2026/",
+  "words": 247,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/events/2024-morpho-blue/",
+  "words": 56,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/events/2024-morpho-becomes-transferable/",
+  "words": 58,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/events/2025-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/events/2026-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/morpho/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/",
+  "words": 337,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/",
+  "words": 229,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2016/",
+  "words": 100,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2018/",
+  "words": 203,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2019/",
+  "words": 183,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2020/",
+  "words": 183,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2021/",
+  "words": 199,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/history/2026/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2016-ethereum-classic-begins/",
+  "words": 74,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2018-first-close-in-our-data/",
+  "words": 143,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2019-51-percent-attack/",
+  "words": 128,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2020-repeated-51-percent-attacks/",
+  "words": 125,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2021-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-classic/events/2026-lowest-close-after-the-peak/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/",
+  "words": 300,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/history/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/history/2021/",
+  "words": 90,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/history/2023/",
+  "words": 234,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/history/2024/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/events/2021-arbitrum-one-opens/",
+  "words": 59,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/events/2023-arb-airdrop/",
+  "words": 108,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/events/2023-first-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arbitrum/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/",
+  "words": 268,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/history/",
+  "words": 177,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/history/2019/",
+  "words": 235,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/events/2019-algorand-mainnet/",
+  "words": 67,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/events/2019-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/events/2021-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/algorand/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/",
+  "words": 264,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/history/",
+  "words": 171,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/history/2024/",
+  "words": 290,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/events/2024-jup-airdrop/",
+  "words": 104,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/events/2024-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/events/2024-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jupiter/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/",
+  "words": 283,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/history/",
+  "words": 182,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/history/2021/",
+  "words": 86,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/history/2025/",
+  "words": 229,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/history/2026/",
+  "words": 240,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/events/2021-kaspa-fair-launch/",
+  "words": 58,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/events/2025-crescendo-10-blocks-per-second/",
+  "words": 72,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/events/2025-first-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/events/2026-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kaspa/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/",
+  "words": 319,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/history/",
+  "words": 206,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/history/2020/",
+  "words": 94,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/history/2021/",
+  "words": 89,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/history/2024/",
+  "words": 306,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2020-matic-mainnet/",
+  "words": 65,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2021-matic-becomes-polygon/",
+  "words": 63,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2024-matic-to-pol-migration/",
+  "words": 115,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2024-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/polygon/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/",
+  "words": 278,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/history/",
+  "words": 174,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/history/2023/",
+  "words": 95,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/history/2024/",
+  "words": 258,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/history/2025/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/events/2023-render-moves-to-solana/",
+  "words": 67,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/events/2024-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/render/events/2025-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/",
+  "words": 314,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/history/",
+  "words": 200,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/history/2019/",
+  "words": 236,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/history/2021/",
+  "words": 240,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/history/2026/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/events/2019-cosmos-hub-mainnet/",
+  "words": 68,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/events/2019-first-close-in-our-data/",
+  "words": 144,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/events/2021-stargate-upgrade-enables-ibc/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/events/2021-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/cosmos/events/2026-lowest-close-after-the-peak/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/",
+  "words": 299,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/history/",
+  "words": 196,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/history/2017/",
+  "words": 87,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/history/2020/",
+  "words": 233,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/events/2017-filecoin-token-sale-closes/",
+  "words": 55,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/events/2020-filecoin-mainnet/",
+  "words": 112,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/events/2020-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/events/2021-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/filecoin/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/",
+  "words": 305,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/history/",
+  "words": 198,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/history/2019/",
+  "words": 229,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/history/2021/",
+  "words": 165,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/history/2024/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/events/2019-sec-qualifies-blockstack-offering/",
+  "words": 61,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/events/2019-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/events/2021-stacks-2-0-mainnet/",
+  "words": 115,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/events/2024-highest-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/stacks/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/",
+  "words": 275,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/history/",
+  "words": 184,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/history/2022/",
+  "words": 268,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/history/2023/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/events/2022-diem-shuts-down/",
+  "words": 65,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/events/2022-aptos-mainnet/",
+  "words": 67,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/events/2022-first-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/events/2023-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aptos/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/",
+  "words": 309,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/2014/",
+  "words": 81,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/2015/",
+  "words": 86,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/2019/",
+  "words": 198,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/2021/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/history/2025/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/events/2014-xcoin-launches/",
+  "words": 52,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/events/2015-darkcoin-becomes-dash/",
+  "words": 62,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/events/2019-first-close-in-our-data/",
+  "words": 140,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/events/2021-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dash/events/2025-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/",
+  "words": 285,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/history/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/history/2020/",
+  "words": 226,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/history/2021/",
+  "words": 157,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/history/2024/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/events/2020-inj-sale-on-binance-launchpad/",
+  "words": 58,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/events/2020-first-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/events/2021-injective-mainnet/",
+  "words": 108,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/events/2024-highest-close-in-our-data/",
+  "words": 132,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/injective/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/",
+  "words": 277,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/history/",
+  "words": 175,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/history/2018/",
+  "words": 228,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/history/2021/",
+  "words": 189,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/events/2018-vechainthor-mainnet/",
+  "words": 62,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/events/2018-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/vechain/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/",
+  "words": 289,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/history/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/history/2019/",
+  "words": 97,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/history/2025/",
+  "words": 288,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/history/2026/",
+  "words": 183,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/events/2019-pi-app-launches/",
+  "words": 68,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/events/2025-pi-open-mainnet/",
+  "words": 69,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/events/2025-first-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/events/2025-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pi-network/events/2026-lowest-close-after-the-peak/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
   "path": "/guides/what-is-crypto/",
   "words": 370,
   "primary_citations": 3,
@@ -944,6 +4848,14 @@
   "indexable": false
  },
  {
+  "path": "/coins/",
+  "words": 1024,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
   "path": "/guides/",
   "words": 310,
   "primary_citations": 2,
@@ -969,10 +4881,10 @@
  },
  {
   "path": "/sources/",
-  "words": 197,
+  "words": 961,
   "primary_citations": 3,
   "dated_facts": true,
-  "passes_thin_gate": false,
+  "passes_thin_gate": true,
   "indexable": false
  },
  {
@@ -993,10 +4905,10 @@
  },
  {
   "path": "/",
-  "words": 299,
+  "words": 1821,
   "primary_citations": 3,
   "dated_facts": true,
-  "passes_thin_gate": false,
+  "passes_thin_gate": true,
   "indexable": false
  }
 ]

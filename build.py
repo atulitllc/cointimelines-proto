@@ -3,6 +3,18 @@ import json, os, re, shutil, sys, html as H, datetime as dt
 sys.path.insert(0, "/workspace/atulit-petcare-proto")
 import seo  # reuse Atulit beacon template
 from content import COINS, EVENTS
+import coins50, re as _re
+BUILD_V = dt.datetime.now().strftime("%Y%m%d%H%M%S")
+for _c,_m in {"btc":("bitcoin",["Layer 1","Payments"]),"eth":("ethereum",["Layer 1","Smart contracts"]),"xrp":("ripple",["Layer 1","Payments"]),"doge":("dogecoin",["Meme","Payments"]),"sol":("solana",["Layer 1","Smart contracts"])}.items():
+    COINS[_c]["cgid"], COINS[_c]["cats"] = _m
+    COINS[_c]["founded_label"] = {"xrp":"Jun 2012"}.get(_c)
+for _k,_v in coins50.C.items():
+    if not os.path.exists(f"data/{_k}.json"): continue
+    COINS[_k] = _v
+    for _e in _v["events"]:
+        _e = dict(_e, coin=_k, slug=_e["date"][:4] + "-" + _re.sub(r"[^a-z0-9]+", "-", _e["name"].lower()).strip("-")[:48])
+        EVENTS.append(_e)
+MKT = {x["id"]: x for x in json.load(open("data/cg_markets_2026-10-14.json"))}
 from articles import ARTICLES, GLOSSARY, COMPARES, YEAR_INTRO
 from assets_src import CSS, JS
 INDEXABLE = False
@@ -29,6 +41,20 @@ def seg_of(c, day):
 def plabel(c, day):
     g = seg_of(c, day); return f'{g["source"]} {g["pair"]} daily close, {day}'
 def fmt(v): return f"${v:,.0f}" if v >= 1000 else (f"${v:,.2f}" if v >= 1 else f"${v:.4g}")
+
+def _auto(c):
+    P = SER[c]["points"]
+    if not P or c in ("btc","eth","xrp","doge","sol"): return
+    k = COINS[c]; first = P[0]; hi = max(P, key=lambda p: p[1]); after = [p for p in P if p[0] > hi[0]]
+    g0 = seg_of(c, first[0]); gs = [(f'{g["source"]} API', g["url"]) for g in SER[c]["segments"]]
+    out = [dict(coin=c, slug=first[0][:4]+"-first-close-in-our-data", date=first[0], kind="milestone", name="First daily close in our data", summary=f'Our sourced {k["sym"]} price history begins on this day.', body=[f'{k["name"]} has a daily close from {g0["source"]} ({g0["pair"]}) starting {first[0]}. Earlier trading may exist on other markets, but we only show prices we can source. Treat early closes with care: new listings often trade thinly.'], sources=gs),
+           dict(coin=c, slug=hi[0][:4]+"-highest-close-in-our-data", date=hi[0], kind="rally", name="Highest close in our data", summary=f'The highest daily close for {k["sym"]} in our price history.', body=[f'This is the highest daily close for {k["name"]} in our fetched series, which runs from {first[0]} to {P[-1][0]}. Intraday highs and prices on other exchanges may have been higher.'], sources=gs)]
+    if len(after) > 30:
+        lo = min(after, key=lambda p: p[1])
+        out.append(dict(coin=c, slug=lo[0][:4]+"-lowest-close-after-the-peak", date=lo[0], kind="crash", name="Lowest close after the peak", summary=f'The lowest {k["sym"]} close in our data after its highest close.', body=[f'After its highest close on {hi[0]}, {k["name"]} reached this lowest daily close in our series, a drop of about {round((1-lo[1]/hi[1])*100)} percent. Later prices may differ.'], sources=gs))
+    for x in out:
+        if not any(y["coin"] == c and y["date"] == x["date"] and y["name"] == x["name"] for y in EVENTS): EVENTS.append(x)
+for _c in list(COINS): _auto(_c)
 for ev in EVENTS:
     if ev["date"].startswith("auto:max:"):
         pre = ev["date"].split(":")[2]
@@ -45,6 +71,8 @@ EVBY = {evpath(x): x for x in EVENTS}
 # ---------- svg art ----------
 LOGO = '''<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#lg)"/><circle cx="32" cy="32" r="21" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/><path d="M14 42 L24 34 L31 38 L41 24 L50 19" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="34" r="3.6" fill="#fff"/><circle cx="41" cy="24" r="3.6" fill="#fff"/><circle cx="50" cy="19" r="4.6" fill="#fde68a" stroke="#fff" stroke-width="2"/></svg>'''
 def coinlogo(c, cls="logo"):
+    if os.path.exists(f'logos/{COINS[c]["cgid"]}.png'):
+        return f'<img class="{cls}" src="__R__img/coins/{COINS[c]["cgid"]}.png" alt="{e(COINS[c]["name"])} logo" width="44" height="44" loading="lazy" decoding="async">'
     k = COINS[c]; col = k["color"]
     inner = {
      "btc": '<text x="32" y="44" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="34" fill="#fff" transform="rotate(14 32 32)">&#8383;</text>',
@@ -95,7 +123,7 @@ def diagram(kind):
     return ""
 # ---------- page shell ----------
 PAGES = {}; REPORT = []
-NAV = [("bitcoin/","bitcoin","Coins"),("guides/","book-open","Guides"),("compare/","git-compare","Compare"),("glossary/","scroll-text","Glossary")]
+NAV = [("coins/","coins","Coins"),("guides/","book-open","Guides"),("compare/","git-compare","Compare"),("glossary/","scroll-text","Glossary")]
 def nfa(): return f'<div class="nfa">{icon("shield-alert")}<span><b>Not financial advice.</b> This is history and education only. We make no buy or sell recommendations and no price predictions.</span></div>'
 def sources_box(srcs, extra_price=None):
     li = "".join(f'<li><a href="{e(u)}" rel="nofollow noopener" target="_blank">{e(t)}</a></li>' for t, u in srcs)
@@ -128,7 +156,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 <link rel="icon" href="{R}favicon.svg" type="image/svg+xml"><link rel="icon" href="{R}favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="{R}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 <script>(function(){{try{{var s=localStorage.getItem('ct-theme'),h=new Date().getHours();document.documentElement.setAttribute('data-theme',s||((h>=19||h<7)?'dark':'light'))}}catch(e){{}}}})()</script>
-<link rel="stylesheet" href="{R}assets/site.css">
+<link rel="stylesheet" href="{R}assets/site.css?v={BUILD_V}">
 {"".join('<script type="application/ld+json">'+json.dumps(x)+'</script>' for x in lds)}
 </head><body>
 <header class="top"><div class="wrap"><a class="brand" href="{R}">{LOGO}<span>Coin<b>Timelines</b></span></a>
@@ -146,8 +174,9 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 <div><h4>Learn</h4><a href="{R}guides/">Guides</a><a href="{R}compare/">Comparisons</a><a href="{R}glossary/">Glossary</a><a href="{R}sources/">Data sources</a></div>
 <div><h4>About</h4><a href="{R}about/">About</a><a href="{R}privacy/">Privacy</a><a href="{R}#newsletter">Newsletter</a></div></div>
 <p class="small">Icons by Lucide (ISC license). Coin marks are simplified drawings of trademarks of their respective projects.</p></div></footer>
-<script src="{R}assets/site.js" defer></script>
+<script src="{R}assets/site.js?v={BUILD_V}" defer></script>
 </body></html>'''
+    html = html.replace("__R__", R)
     assert "\u2014" not in html and "\u2013" not in html, path
     PAGES[path] = html
 def newsletter():
@@ -201,7 +230,7 @@ for c, k in COINS.items():
     facts = "".join(f'<div class="fact"><span>{e(a)}</span><b>{e(b)}</b></div>' for a,b in k["facts"])
     yl = "".join(f'<a href="{R}{s}/history/{y}/">{y}</a>' for y in years)
     rel_cmp = [cp for cp in COMPARES if c in (cp["a"], cp["b"])]
-    body = f'''<section class="hero" style="background:linear-gradient(135deg,{k["color"]},{k["color2"]})"><span class="blob" style="width:260px;height:260px;background:#fff;left:-60px;top:-60px"></span>{hero_art(c)}<div class="inner"><span class="chip">{coinlogo(c,"ic")} {k["sym"]}</span><h1>{k["name"]}: history, founders and key events</h1><p class="lede">From {mdate(k["founded"]) if c!="xrp" else "June 2012"} to today, every major rally, crash and upgrade, each with a dated, sourced price.</p><a class="btn w" href="{R}{s}/history/">{icon("history")}Open the interactive timeline</a></div></section>
+    body = f'''<section class="hero" style="background:linear-gradient(135deg,{k["color"]},{k["color2"]})"><span class="blob" style="width:260px;height:260px;background:#fff;left:-60px;top:-60px"></span>{hero_art(c)}<div class="inner"><span class="chip">{coinlogo(c,"ic")} {k["sym"]}</span><h1>{k["name"]}: history, founders and key events</h1><p class="lede">From {k.get("founded_label") or mdate(k["founded"])} to today, every major rally, crash and upgrade, each with a dated, sourced price.</p><a class="btn w" href="{R}{s}/history/">{icon("history")}Open the interactive timeline</a></div></section>
 <div class="stats"><div class="stat reveal" style="background:{k["color"]}"><b data-count="{len(evs)}">{len(evs)}</b><span>dated events</span></div><div class="stat reveal" style="background:#7c3aed"><b data-count="{len(years)}">{len(years)}</b><span>years covered</span></div><div class="stat reveal" style="background:#ec4899"><b data-count="{len(SER[c]["points"])}">{len(SER[c]["points"])}</b><span>daily closes charted</span></div><div class="stat reveal" style="background:#0ea5e9"><b data-count="{sum(len(x["sources"]) for x in evs)}">{sum(len(x["sources"]) for x in evs)}</b><span>source links</span></div></div>
 <p class="small">Latest close in our data: <b>{fmt(last[1])}</b> ({e(plabel(c,last[0]))}).</p>
 <div class="facts">{facts}</div>
@@ -210,7 +239,7 @@ for c, k in COINS.items():
 <h2>Browse by year</h2><div class="yearlist">{yl}</div>
 <h2>Key events</h2>{tl_ol(evs, R)}
 {('<h2>Compare</h2>'+linkify(R, ["compare/"+cp["slug"]+"/" for cp in rel_cmp])) if rel_cmp else ''}'''
-    srcs = k["primary"] + [("Wikipedia: "+k["name"], f"https://en.wikipedia.org/wiki/{ {'xrp':'Ripple_Labs','sol':'Solana_(blockchain_platform)'}.get(c,k['name'])}")]
+    srcs = k["primary"] + ([] if "wiki" in k else [("Wikipedia: "+k["name"], f"https://en.wikipedia.org/wiki/{ {'xrp':'Ripple_Labs','sol':'Solana_(blockchain_platform)'}.get(c,k['name'])}")])
     page(f"{s}/", trim_title(f"{k['name']} History: Founders, Key Events & Prices", f"{k['name']} History and Key Events"), f"{k['name']} history from launch to today: origin story, founders, and every major event with a sourced daily close price.", body, [(k["name"], f"{s}/")], srcs, kind="hub", show_nfa=True)
     # timeline
     R = "../../"
@@ -291,11 +320,27 @@ for cp in COMPARES:
 <h2>Related events and hubs</h2>{linkify(R, cp["events"] + [A["slug"]+"/", B["slug"]+"/"])}'''
     t = cp["title"] if "for" not in cp["slug"] else trim_title(f'{A["name"]} vs {B["name"]} for {cp["use"]}: Fees, Speed, Trade-offs', cp["title"])
     page(p, t, cp["desc"], body, [("Compare","compare/"),(f'{A["name"]} vs {B["name"]}', p)], cp["sources"], kind="compare", show_nfa=True)
+
+def rank(c): return (MKT.get(COINS[c]["cgid"]) or {}).get("market_cap_rank") or 999
+ORDER = sorted(COINS, key=rank)
+CATS = []
+for _c in ORDER:
+    for _t in COINS[_c]["cats"]:
+        if _t not in CATS: CATS.append(_t)
+def coin_index(R, limit=None):
+    chips = '<button type="button" class="cchip on" data-cat="">All</button>' + "".join(f'<button type="button" class="cchip" data-cat="{e(t)}">{e(t)}</button>' for t in CATS)
+    items = []
+    for c in ORDER:
+        k = COINS[c]; last = SER[c]["points"][-1]
+        items.append(f'<a class="card cgi reveal" href="{R}{k["slug"]}/" data-name="{e((k["name"]+" "+k["sym"]).lower())}" data-cats="{e("|".join(k["cats"]))}"><span class="bar" style="background:linear-gradient(90deg,{k["color"]},{k["color2"]})"></span><div class="top">{coinlogo(c)}<div><b>{e(k["name"])}</b><br><span class="small">#{rank(c)} &middot; {k["sym"]}</span></div></div><div class="tags">{"".join(f'<span class="chip k">{e(t)}</span>' for t in k["cats"])}</div><span class="small">{len(k["events"])} events &middot; last close {fmt(last[1])} ({e(plabel(c,last[0]))})</span></a>')
+    return f'''<div class="cfilter"><label class="search">{icon("search")}<input id="coin-q" type="search" placeholder="Search {len(ORDER)} coins by name or ticker" aria-label="Search coins"></label><div class="chips">{chips}</div></div><div class="grid g4 cgrid">{"".join(items)}</div><p class="small cnone" hidden>No coins match that search.</p><p class="small">{icon("info")} Ranking: top coins by market cap from the <a href="https://docs.coingecko.com/reference/coins-markets" rel="nofollow">CoinGecko /coins/markets</a> public API, fetched {UPDATED}, excluding stablecoins, wrapped or staked tokens, tokenized funds and coins we could not source well. Ranks show CoinGecko's position.</p>'''
 # ---------- index pages ----------
 def cardlist(R, items, colors=("#7c3aed","#ec4899","#f97316","#0ea5e9","#10b981")):
     return '<div class="grid g3">' + "".join(f'<a class="card reveal" href="{R}{p}"><span class="ibox" style="background:{colors[i%len(colors)]}">{icon(ic)}</span><h3>{e(t)}</h3><p class="small">{e(d)}</p></a>' for i,(p,ic,t,d) in enumerate(items)) + '</div>'
 R = "../"
 gl = [(a["path"], a.get("icon","book-open"), a["h1"], a["desc"]) for a in ARTICLES]
+page("coins/", "All Coins: 50 Crypto Timelines and Histories", f"Browse {len(ORDER)} crypto histories: hubs, timelines and dated, sourced events for the top coins by market cap as of {UPDATED}.",
+     nfa()+f'<section class="hero"><div class="inner"><span class="chip">{icon("coins")} {len(ORDER)} coins</span><h1>Every coin, every timeline</h1><p class="lede">The top coins by market cap, each with an origin story, a clickable price chart and sourced events.</p></div>{hero_art()}</section>' + coin_index("../"), [("Coins","coins/")], [("CoinGecko /coins/markets API","https://docs.coingecko.com/reference/coins-markets")], ld=[itemlist("Coins", [(COINS[c]["name"], COINS[c]["slug"]+"/") for c in ORDER])], kind="index")
 page("guides/", "Crypto Guides and Explainers for Beginners", "Plain English crypto guides: what crypto is, wallets, how blockchains work, hard forks, SegWit, the Merge, XRP vs SEC and why DOGE pumps.",
      f'<section class="hero"><div class="inner"><span class="chip">{icon("book-open")} Learn</span><h1>Guides and explainers</h1><p class="lede">Start with the basics, then dig into the big stories.</p></div>{hero_art()}</section>{cardlist(R, gl)}', [("Guides","guides/")], [W for W in [("ethereum.org: learn","https://ethereum.org/en/learn/"),("bitcoin.org: getting started","https://bitcoin.org/en/getting-started")]], ld=[itemlist("Guides", [(a["h1"],a["path"]) for a in ARTICLES])], kind="index")
 page("glossary/", "Crypto Glossary: Halving, Forks, Staking", "Short definitions of crypto terms like halving, hard fork, soft fork, proof of work and proof of stake, linked to real events.",
@@ -318,6 +363,7 @@ nev = len(EVENTS); npts = sum(len(SER[c]["points"]) for c in COINS); nsrc = len(
 body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" style="width:300px;height:300px;background:#fde68a;right:10%;top:-80px"></span><span class="blob" style="width:240px;height:240px;background:#38bdf8;left:-60px;bottom:-60px;animation-delay:-4s"></span>{hero_art()}<div class="inner"><span class="chip">{icon("history")} Crypto history, made clickable</span><h1>Every big crypto moment, on one timeline.</h1><p class="lede">Rallies, crashes, forks and court fights for Bitcoin, Ethereum, XRP, Dogecoin and Solana. Each one dated, sourced and pinned to the real price that day.</p><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn w" href="bitcoin/history/">{icon("chart-spline")}Explore the Bitcoin timeline</a><a class="btn o" href="guides/what-is-crypto/" style="color:#fff">{icon("book-open")}New to crypto?</a></div></div></section>
 <div class="stats"><div class="stat reveal" style="background:#7c3aed"><b data-count="{nev}">{nev}</b><span>dated events</span></div><div class="stat reveal" style="background:#ec4899"><b data-count="{npts}">{npts}</b><span>daily closes charted</span></div><div class="stat reveal" style="background:#f97316"><b data-count="{nsrc}">{nsrc}</b><span>sources cited</span></div><div class="stat reveal" style="background:#0ea5e9"><b data-count="5">5</b><span>coin timelines</span></div></div>
 <h2>Pick a coin</h2><div class="grid g5">{cc}</div>
+<h2>All {len(ORDER)} coins</h2>{coin_index("./")}
 {chartbox("btc", COINS["btc"]["events"], R)}
 <h2>Big stories, explained</h2>{cardlist(R, feat)}
 <h2>Start with the basics</h2>{cardlist(R, basics, ("#0ea5e9","#10b981","#7c3aed"))}
@@ -326,7 +372,10 @@ body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" st
 page("", "CoinTimelines: Crypto History, Timelines and Guides", "Interactive timelines of Bitcoin, Ethereum, XRP, Dogecoin and Solana: dated events, sourced historical prices and plain English guides.", body, [], [("Bitcoin whitepaper","https://bitcoin.org/bitcoin.pdf"),("Ethereum upgrade history","https://ethereum.org/en/history/"),("SEC v. Ripple docket","https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/")], ld=[itemlist("Coin timelines", [(k["name"]+" timeline", k["slug"]+"/history/") for k in COINS.values()])], kind="home", show_nfa=True)
 # ---------- write ----------
 if os.path.isdir(OUT): shutil.rmtree(OUT)
-os.makedirs(OUT+"/assets"); shutil.copytree("data", OUT+"/data")
+os.makedirs(OUT+"/assets"); shutil.copytree("data", OUT+"/data"); os.makedirs(OUT+"/img/coins")
+for _k in COINS:
+    _f = f"logos/{COINS[_k]['cgid']}.png"
+    if os.path.exists(_f): shutil.copy(_f, OUT+"/img/coins/")
 open(OUT+"/assets/site.css","w").write(CSS); open(OUT+"/assets/site.js","w").write(JS)
 seo.BEACON_SITE, seo.BEACON_DOMAIN = BEACON_SITE, LIVE_HOST
 for p, h in PAGES.items():
