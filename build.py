@@ -1,25 +1,48 @@
-"""CoinTimelines static build. INDEXABLE gates robots/noindex for the whole site (stays False)."""
+"""CryptoHistoryBook static build. INDEXABLE gates robots/noindex for the whole site (stays False)."""
 import json, os, re, shutil, sys, html as H, datetime as dt
 sys.path.insert(0, "/workspace/atulit-petcare-proto")
 import seo  # reuse Atulit beacon template
 from content import COINS, EVENTS
-import coins50, re as _re
+import coins50, coins100, re as _re
 BUILD_V = dt.datetime.now().strftime("%Y%m%d%H%M%S")
 for _c,_m in {"btc":("bitcoin",["Layer 1","Payments"]),"eth":("ethereum",["Layer 1","Smart contracts"]),"xrp":("ripple",["Layer 1","Payments"]),"doge":("dogecoin",["Meme","Payments"]),"sol":("solana",["Layer 1","Smart contracts"])}.items():
     COINS[_c]["cgid"], COINS[_c]["cats"] = _m
     COINS[_c]["founded_label"] = {"xrp":"Jun 2012"}.get(_c)
-for _k,_v in coins50.C.items():
+for _k,_v in list(coins50.C.items()) + list(coins100.D.items()):
     if not os.path.exists(f"data/{_k}.json"): continue
     COINS[_k] = _v
     for _e in _v["events"]:
         _e = dict(_e, coin=_k, slug=_e["date"][:4] + "-" + _re.sub(r"[^a-z0-9]+", "-", _e["name"].lower()).strip("-")[:48])
         EVENTS.append(_e)
-MKT = {x["id"]: x for x in json.load(open("data/cg_markets_2026-10-14.json"))}
+MKT = {x["id"]: x for f in ("data/cg_markets_2026-10-14.json","data/cg_markets_2026-10-14_p2.json") for x in json.load(open(f))}
+def _num(v):
+    return f"{v/1e12:.2f} trillion" if v>=1e12 else f"{v/1e9:.2f} billion" if v>=1e9 else f"{v/1e6:.1f} million" if v>=1e6 else f"{v:,.0f}"
+for _k in coins100.D:
+    if _k in COINS:
+        m = MKT.get(COINS[_k]["cgid"]) or {}
+        if m.get("circulating_supply"): COINS[_k]["facts"].append(("Circulating supply", _num(m["circulating_supply"]) + " (CoinGecko, Oct 14, 2026)"))
+        if m.get("max_supply"): COINS[_k]["facts"].append(("Max supply", _num(m["max_supply"]) + " (CoinGecko)"))
+        COINS[_k]["primary"].append(("CoinGecko: " + COINS[_k]["name"], "https://www.coingecko.com/en/coins/" + COINS[_k]["cgid"]))
+WFIX = json.load(open("wiki_fix.json"))
+def _fixsrc(lst, fallback):
+    out = []
+    for t, u in lst:
+        if "en.wikipedia.org/wiki/" in u:
+            key = u.split("/wiki/")[1].replace("_", " ")
+            if key in WFIX:
+                if WFIX[key] is None: continue
+                u = "https://en.wikipedia.org/wiki/" + WFIX[key].replace(" ", "_"); t = "Wikipedia: " + WFIX[key]
+        if (t, u) not in out: out.append((t, u))
+    return out or fallback
+for _k, _v in COINS.items():
+    _v["primary"] = _fixsrc(_v["primary"], [])
+for _e in EVENTS:
+    _e["sources"] = _fixsrc(_e["sources"], COINS[_e["coin"]]["primary"][:2])
 from articles import ARTICLES, GLOSSARY, COMPARES, YEAR_INTRO
 from assets_src import CSS, JS
 INDEXABLE = False
-BRAND = "CoinTimelines"; ORIGIN = "https://cointimelines.com"
-LIVE_HOST = "atulitllc.github.io"; BEACON_SITE = "cointimelines"
+BRAND = "CryptoHistoryBook"; ORIGIN = "https://cryptohistorybook.com"
+LIVE_HOST = "atulitllc.github.io"; BEACON_SITE = "cryptohistorybook"
 UPDATED = "Oct 14, 2026"; UPDATED_ISO = "2026-10-14"
 OUT = "docs"; ICONS = "/tmp/lucide/package/icons"
 KC = {"launch":"#0ea5e9","rally":"#10b981","crash":"#ef4444","upgrade":"#7c3aed","legal":"#f59e0b","fork":"#ec4899","outage":"#64748b","milestone":"#f97316"}
@@ -69,7 +92,7 @@ for c in COINS:
 def evpath(x): return f'{COINS[x["coin"]]["slug"]}/events/{x["slug"]}/'
 EVBY = {evpath(x): x for x in EVENTS}
 # ---------- svg art ----------
-LOGO = '''<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#lg)"/><circle cx="32" cy="32" r="21" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/><path d="M14 42 L24 34 L31 38 L41 24 L50 19" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="34" r="3.6" fill="#fff"/><circle cx="41" cy="24" r="3.6" fill="#fff"/><circle cx="50" cy="19" r="4.6" fill="#fde68a" stroke="#fff" stroke-width="2"/></svg>'''
+LOGO = '''<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#lg)"/><path d="M10 17c7-3 15-3 22 1 7-4 15-4 22-1v32c-7-3-15-3-22 1-7-4-15-4-22-1z" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3" stroke-linejoin="round"/><path d="M32 18v32" stroke="#fff" stroke-opacity=".5" stroke-width="3"/><path d="M14 42 L24 34 L31 38 L41 24 L50 19" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="34" r="3.6" fill="#fff"/><circle cx="41" cy="24" r="3.6" fill="#fff"/><circle cx="50" cy="19" r="4.6" fill="#fde68a" stroke="#fff" stroke-width="2"/></svg>'''
 def coinlogo(c, cls="logo"):
     if os.path.exists(f'logos/{COINS[c]["cgid"]}.png'):
         return f'<img class="{cls}" src="__R__img/coins/{COINS[c]["cgid"]}.png" alt="{e(COINS[c]["name"])} logo" width="44" height="44" loading="lazy" decoding="async">'
@@ -134,6 +157,10 @@ def ld_article(path, title, desc):
 def ld_crumbs(crumbs):
     return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":ORIGIN+"/"+p} for i,(n,p) in enumerate(crumbs)]}
 def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_count=None, show_nfa=False):
+    if len(title) > 60:
+        for _c in COINS.values():
+            if _c["name"] in title and len(_c["name"])>14: title = title.replace(_c["name"], _c["sym"])
+    if len(title) > 60: title = title.replace(" & Timeline","").replace(": Key Events",": Events")
     assert len(title) <= 60, (len(title), title)
     assert len(desc) <= 155, (len(desc), desc)
     R = "../" * path.count("/") or "./"
@@ -159,7 +186,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 <link rel="stylesheet" href="{R}assets/site.css?v={BUILD_V}">
 {"".join('<script type="application/ld+json">'+json.dumps(x)+'</script>' for x in lds)}
 </head><body>
-<header class="top"><div class="wrap"><a class="brand" href="{R}">{LOGO}<span>Coin<b>Timelines</b></span></a>
+<header class="top"><div class="wrap"><a class="brand" href="{R}">{LOGO}<span>Crypto<b>HistoryBook</b></span></a>
 <nav class="main" aria-label="Main">{navh}</nav>
 <button class="thm menu-btn" type="button" aria-label="Menu">{icon("menu")}</button>
 <button class="thm" type="button" aria-label="Switch light or dark mode" onclick="var d=document.documentElement,t=d.getAttribute('data-theme')=='dark'?'light':'dark';d.setAttribute('data-theme',t);try{{localStorage.setItem('ct-theme',t)}}catch(e){{}}">{icon("moon","ic i-moon")}{icon("sun","ic i-sun")}</button></div></header>
@@ -169,7 +196,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
 <div class="ad-slot" data-ad-slot="{kind}-bottom" hidden aria-hidden="true"></div>
 <aside class="affiliate" data-affiliate="exchanges" hidden><p class="small">Disclosure: links in this box are affiliate links; we may earn a commission.</p><!-- exchange links go here with rel="sponsored nofollow" --></aside>
 </main>
-<footer><div class="wrap"><div class="cols"><div><a class="brand" href="{R}">{LOGO}<span>Coin<b>Timelines</b></span></a><p><b>Not financial advice.</b> CoinTimelines is a history and education site. Nothing here is a recommendation to buy, sell or hold any asset, and we make no price predictions. Prices are historical daily closes from the named exchange and date shown.</p><p>Last checked {UPDATED}.</p></div>
+<footer><div class="wrap"><div class="cols"><div><a class="brand" href="{R}">{LOGO}<span>Crypto<b>HistoryBook</b></span></a><p><b>Not financial advice.</b> CryptoHistoryBook is a history and education site. Nothing here is a recommendation to buy, sell or hold any asset, and we make no price predictions. Prices are historical daily closes from the named exchange and date shown.</p><p>Last checked {UPDATED}.</p></div>
 <div><h4>Coins</h4>{"".join(f'<a href="{R}{k["slug"]}/">{k["name"]}</a>' for k in COINS.values())}</div>
 <div><h4>Learn</h4><a href="{R}guides/">Guides</a><a href="{R}compare/">Comparisons</a><a href="{R}glossary/">Glossary</a><a href="{R}sources/">Data sources</a></div>
 <div><h4>About</h4><a href="{R}about/">About</a><a href="{R}privacy/">Privacy</a><a href="{R}#newsletter">Newsletter</a></div></div>
@@ -180,7 +207,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
     assert "\u2014" not in html and "\u2013" not in html, path
     PAGES[path] = html
 def newsletter():
-    return f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CoinTimelines letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p><form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
+    return f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CryptoHistoryBook letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p><form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
 def ev_js(c, evs, focus=None, R=""):
     out = []
     for x in evs:
@@ -348,11 +375,11 @@ page("glossary/", "Crypto Glossary: Halving, Forks, Staking", "Short definitions
 page("compare/", "Coin vs Coin Comparisons: Fees, Speed, Supply", "Side by side comparisons of Bitcoin, Ethereum, XRP, Dogecoin and Solana: consensus, supply, speed and fees, with links to the history.",
      nfa()+f'<section class="hero"><div class="inner"><span class="chip">{icon("git-compare")} Compare</span><h1>Coin vs coin</h1><p class="lede">Facts side by side. No winners picked.</p></div></section><div class="grid g2">' + "".join(f'<a class="card reveal" href="{R}compare/{cp["slug"]}/"><div class="vs">{coinlogo(cp["a"])}<b>vs</b>{coinlogo(cp["b"])}</div><h3 style="text-align:center">{e(TITLES["compare/"+cp["slug"]+"/"])}</h3><p class="small" style="text-align:center">{e(cp["desc"])}</p></a>' for cp in COMPARES) + '</div>', [("Compare","compare/")], [], ld=[itemlist("Comparisons", [(TITLES["compare/"+cp["slug"]+"/"],"compare/"+cp["slug"]+"/") for cp in COMPARES])], kind="index")
 srcs_rows = "".join(f'<tr><th>{COINS[c]["name"]}</th><td>' + "<br>".join(f'{e(g["source"])} {e(g["pair"])}, {g["from"]} to {g["to"]} (<a href="{e(g["url"])}" rel="nofollow">API docs</a>)' for g in SER[c]["segments"]) + f'</td><td>{len(SER[c]["points"])}</td></tr>' for c in COINS)
-page("sources/", "Data Sources and Methods", "Where CoinTimelines gets its prices: free public daily close data from Bitstamp, Coinbase Exchange and Binance, fetched Oct 14, 2026.",
+page("sources/", "Data Sources and Methods", "Where CryptoHistoryBook gets its prices: free public daily close data from Bitstamp, Coinbase Exchange and Binance, fetched Oct 14, 2026.",
      f'<h1>Data sources and methods</h1><section class="prose"><p>Every price on this site is a daily close (UTC) taken from a free, public exchange API at build time on {UPDATED}. We use one exchange per day, preferring the earliest continuous USD market for each coin, and fill earlier days from Binance USDT pairs only where no USD series was available. Each price shows the exchange, pair and date it came from. When our data does not cover a date, we show no price rather than an estimate.</p><p>Event facts are written in our own words and link to primary sources such as whitepapers, BIPs and EIPs, SEC filings, court dockets, official project blogs and block explorers, plus Wikipedia for background.</p></section><table class="cmp"><thead><tr><th style="background:#334155">Coin</th><th style="background:#7c3aed">Series</th><th style="background:#ec4899">Days</th></tr></thead><tbody>{srcs_rows}</tbody></table>', [("Data sources","sources/")], [("Bitstamp API","https://www.bitstamp.net/api/"),("Coinbase Exchange API","https://docs.cdp.coinbase.com/exchange/"),("Binance Spot API","https://developers.binance.com/docs/binance-spot-api-docs/rest-api")], kind="page")
-page("about/", "About CoinTimelines", "CoinTimelines explains crypto history with dated, sourced events and charts. It is education only and not financial advice.",
-     f'<h1>About CoinTimelines</h1><section class="prose"><p>CoinTimelines turns the history of major cryptocurrencies into timelines you can click through. Each event is dated, written in our own words and linked to its sources. Each price is a historical daily close from a named exchange.</p><p>We do not give investment advice, rate coins or predict prices. We do not accept payment to cover a project.</p></section>', [("About","about/")], [], kind="page")
-page("privacy/", "Privacy Policy", "CoinTimelines uses first party page view analytics and stores newsletter signups only in your browser. No ads or third party trackers.",
+page("about/", "About CryptoHistoryBook", "CryptoHistoryBook explains crypto history with dated, sourced events and charts. It is education only and not financial advice.",
+     f'<h1>About CryptoHistoryBook</h1><section class="prose"><p>CryptoHistoryBook turns the history of major cryptocurrencies into timelines you can click through. Each event is dated, written in our own words and linked to its sources. Each price is a historical daily close from a named exchange.</p><p>We do not give investment advice, rate coins or predict prices. We do not accept payment to cover a project.</p></section>', [("About","about/")], [], kind="page")
+page("privacy/", "Privacy Policy", "CryptoHistoryBook uses first party page view analytics and stores newsletter signups only in your browser. No ads or third party trackers.",
      f'<h1>Privacy policy</h1><section class="prose"><p>Last updated {UPDATED}.</p><p>We use first party, cookie based page view analytics: two cookies, atulit_vid (a random visitor id) and atulit_sid (a random visit id that resets after 30 minutes of inactivity), record which pages are viewed. The data goes only to our own analytics server. There are no ads and no third party trackers.</p><p>If you join the newsletter, your email is stored only in your browser\'s local storage. Nothing is sent to us yet. Your theme choice is also saved in local storage.</p></section>', [("Privacy","privacy/")], [], kind="page")
 # home
 R = "./"
@@ -369,7 +396,7 @@ body = f'''<section class="hero" style="padding:70px 48px"><span class="blob" st
 <h2>Start with the basics</h2>{cardlist(R, basics, ("#0ea5e9","#10b981","#7c3aed"))}
 <h2>Compare coins</h2><div class="grid g2">{"".join(f'<a class="card reveal" href="compare/{cp["slug"]}/" style="display:flex;align-items:center;gap:14px">{coinlogo(cp["a"])}{coinlogo(cp["b"])}<b>{e(TITLES["compare/"+cp["slug"]+"/"])}</b></a>' for cp in COMPARES)}</div>
 {newsletter()}'''
-page("", "CoinTimelines: Crypto History, Timelines and Guides", "Interactive timelines of Bitcoin, Ethereum, XRP, Dogecoin and Solana: dated events, sourced historical prices and plain English guides.", body, [], [("Bitcoin whitepaper","https://bitcoin.org/bitcoin.pdf"),("Ethereum upgrade history","https://ethereum.org/en/history/"),("SEC v. Ripple docket","https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/")], ld=[itemlist("Coin timelines", [(k["name"]+" timeline", k["slug"]+"/history/") for k in COINS.values()])], kind="home", show_nfa=True)
+page("", "CryptoHistoryBook: Crypto History, Timelines and Guides", "Interactive timelines of Bitcoin, Ethereum, XRP, Dogecoin and Solana: dated events, sourced historical prices and plain English guides.", body, [], [("Bitcoin whitepaper","https://bitcoin.org/bitcoin.pdf"),("Ethereum upgrade history","https://ethereum.org/en/history/"),("SEC v. Ripple docket","https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/")], ld=[itemlist("Coin timelines", [(k["name"]+" timeline", k["slug"]+"/history/") for k in COINS.values()])], kind="home", show_nfa=True)
 # ---------- write ----------
 if os.path.isdir(OUT): shutil.rmtree(OUT)
 os.makedirs(OUT+"/assets"); shutil.copytree("data", OUT+"/data"); os.makedirs(OUT+"/img/coins")
@@ -381,7 +408,7 @@ seo.BEACON_SITE, seo.BEACON_DOMAIN = BEACON_SITE, LIVE_HOST
 for p, h in PAGES.items():
     os.makedirs(os.path.join(OUT, p), exist_ok=True)
     open(os.path.join(OUT, p, "index.html"), "w").write(seo.add_beacon(h))
-nf = PAGES["about/"].replace("<h1>About CoinTimelines</h1>", "<h1>Page not found</h1><p><a href='/cointimelines-proto/'>Go to the home page</a></p>",1)
+nf = PAGES["about/"].replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/cointimelines-proto/'>Go to the home page</a></p>",1)
 open(OUT+"/404.html","w").write(seo.add_beacon(nf.replace('data-root="../"','data-root="/cointimelines-proto/"').replace('href="../','href="/cointimelines-proto/').replace('src="../','src="/cointimelines-proto/')))
 open(OUT+"/robots.txt","w").write("User-agent: *\nDisallow: /\n")
 open(OUT+"/favicon.svg","w").write(LOGO.replace(' aria-hidden="true"',''))

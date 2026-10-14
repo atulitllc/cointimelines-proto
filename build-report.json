@@ -1122,7 +1122,7 @@
  {
   "path": "/hyperliquid/history/2025/",
   "words": 241,
-  "primary_citations": 1,
+  "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -1146,7 +1146,7 @@
  {
   "path": "/hyperliquid/events/2025-jelly-market-delisted/",
   "words": 87,
-  "primary_citations": 0,
+  "primary_citations": 1,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -2162,7 +2162,7 @@
  {
   "path": "/sui/history/2024/",
   "words": 175,
-  "primary_citations": 0,
+  "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -2202,7 +2202,7 @@
  {
   "path": "/sui/events/2024-sui-network-halt/",
   "words": 125,
-  "primary_citations": 0,
+  "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -3146,7 +3146,7 @@
  {
   "path": "/sky/history/2020/",
   "words": 112,
-  "primary_citations": 0,
+  "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -3186,7 +3186,7 @@
  {
   "path": "/sky/events/2020-black-thursday-liquidations/",
   "words": 88,
-  "primary_citations": 0,
+  "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": false,
   "indexable": false
@@ -4688,6 +4688,3182 @@
   "indexable": false
  },
  {
+  "path": "/bittensor/",
+  "words": 279,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/history/",
+  "words": 163,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/history/2024/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/events/2024-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/events/2024-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bittensor/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/",
+  "words": 262,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/history/2021/",
+  "words": 258,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/history/2022/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/events/2021-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/events/2021-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/quant/events/2022-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/",
+  "words": 259,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/history/",
+  "words": 154,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/history/2025/",
+  "words": 250,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/events/2025-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/events/2025-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/okb/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/",
+  "words": 290,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/history/",
+  "words": 162,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/history/2023/",
+  "words": 195,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/history/2024/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/events/2023-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/events/2024-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pepe/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/",
+  "words": 237,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/history/",
+  "words": 157,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/history/2025/",
+  "words": 256,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/history/2026/",
+  "words": 183,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/events/2025-first-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/events/2025-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitget-token/events/2026-lowest-close-after-the-peak/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/",
+  "words": 243,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/history/",
+  "words": 157,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/history/2025/",
+  "words": 256,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/history/2026/",
+  "words": 183,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/events/2025-first-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/events/2025-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/kucoin-token/events/2026-lowest-close-after-the-peak/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/",
+  "words": 241,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/history/",
+  "words": 154,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/history/2025/",
+  "words": 250,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/events/2025-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/events/2025-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gatetoken/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/",
+  "words": 253,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/history/2024/",
+  "words": 258,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/events/2024-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/aerodrome/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/",
+  "words": 261,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/history/",
+  "words": 154,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/history/2022/",
+  "words": 250,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/history/2023/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/events/2022-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/events/2022-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/nexo/events/2023-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/",
+  "words": 283,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/history/",
+  "words": 177,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/history/2024/",
+  "words": 306,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/events/2024-zro-token-launch/",
+  "words": 112,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/events/2024-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/layerzero/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/history/",
+  "words": 162,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/history/2021/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/history/2023/",
+  "words": 186,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/events/2021-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pancakeswap/events/2023-lowest-close-after-the-peak/",
+  "words": 127,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/",
+  "words": 242,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/history/2024/",
+  "words": 193,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/history/2025/",
+  "words": 186,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/history/2026/",
+  "words": 183,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/events/2024-first-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/events/2025-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xdc-network/events/2026-lowest-close-after-the-peak/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/",
+  "words": 283,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/history/",
+  "words": 176,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/history/2023/",
+  "words": 94,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/history/2024/",
+  "words": 263,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/history/2026/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/events/2023-pyth-airdrop/",
+  "words": 69,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/events/2024-first-close-in-our-data/",
+  "words": 143,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/events/2024-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/pyth/events/2026-lowest-close-after-the-peak/",
+  "words": 131,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/",
+  "words": 252,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/history/",
+  "words": 163,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/history/2024/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/events/2024-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/events/2024-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ether-fi/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/",
+  "words": 291,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/history/",
+  "words": 181,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/history/2024/",
+  "words": 301,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/events/2024-strk-airdrop/",
+  "words": 111,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/events/2024-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/events/2024-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/starknet/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/",
+  "words": 281,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/history/",
+  "words": 176,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/history/2023/",
+  "words": 233,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/history/2024/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/events/2023-first-close-in-our-data/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/events/2023-flr-token-distribution/",
+  "words": 114,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/events/2024-highest-close-in-our-data/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/flare/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/",
+  "words": 294,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/history/",
+  "words": 184,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/history/2023/",
+  "words": 232,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/history/2024/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/events/2023-celestia-mainnet-beta/",
+  "words": 105,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/events/2023-first-close-in-our-data/",
+  "words": 140,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/events/2024-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/celestia/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/",
+  "words": 291,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/history/",
+  "words": 179,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/history/2025/",
+  "words": 302,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/history/2026/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/events/2025-trump-meme-coin-launches/",
+  "words": 71,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/events/2025-first-close-in-our-data/",
+  "words": 145,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/events/2025-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/official-trump/events/2026-lowest-close-after-the-peak/",
+  "words": 131,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/",
+  "words": 251,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/history/",
+  "words": 162,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/history/2021/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/history/2023/",
+  "words": 186,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/events/2021-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/raydium/events/2023-lowest-close-after-the-peak/",
+  "words": 127,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/",
+  "words": 264,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/history/",
+  "words": 166,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/history/2020/",
+  "words": 264,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/history/2026/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/events/2020-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/events/2020-highest-close-in-our-data/",
+  "words": 142,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/curve/events/2026-lowest-close-after-the-peak/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/",
+  "words": 283,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/history/",
+  "words": 171,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/history/2019/",
+  "words": 206,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/history/2024/",
+  "words": 204,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/history/2026/",
+  "words": 201,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/events/2019-first-close-in-our-data/",
+  "words": 146,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/events/2024-highest-close-in-our-data/",
+  "words": 148,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/artificial-superintelligence-alliance/events/2026-lowest-close-after-the-peak/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/",
+  "words": 273,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/history/",
+  "words": 168,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/history/2022/",
+  "words": 202,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/history/2024/",
+  "words": 199,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/history/2026/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/events/2022-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/events/2024-highest-close-in-our-data/",
+  "words": 143,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/lido/events/2026-lowest-close-after-the-peak/",
+  "words": 133,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/",
+  "words": 292,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/history/",
+  "words": 175,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/history/2018/",
+  "words": 91,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/history/2019/",
+  "words": 195,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/history/2021/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/events/2018-tezos-betanet-launches/",
+  "words": 64,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/events/2019-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/events/2021-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/tezos/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/",
+  "words": 277,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/history/",
+  "words": 171,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/history/2022/",
+  "words": 234,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/history/2024/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/events/2022-op-airdrop/",
+  "words": 69,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/events/2022-first-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/optimism/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/",
+  "words": 275,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/history/",
+  "words": 163,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/history/2021/",
+  "words": 258,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/history/2022/",
+  "words": 189,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/events/2021-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/gnosis/events/2022-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/",
+  "words": 255,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/history/",
+  "words": 154,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/history/2021/",
+  "words": 250,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/history/2022/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/events/2021-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/events/2021-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/conflux/events/2022-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/",
+  "words": 289,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/history/",
+  "words": 165,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/history/2016/",
+  "words": 86,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/history/2020/",
+  "words": 188,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/history/2021/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/history/2024/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/events/2016-decred-launches/",
+  "words": 60,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/events/2020-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/events/2021-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decred/events/2024-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/",
+  "words": 283,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/history/",
+  "words": 182,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/history/2020/",
+  "words": 213,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/history/2021/",
+  "words": 192,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/history/2026/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/events/2020-the-graph-mainnet/",
+  "words": 110,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/events/2020-first-close-in-our-data/",
+  "words": 140,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/events/2021-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-graph/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/",
+  "words": 272,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/history/",
+  "words": 177,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/history/2022/",
+  "words": 100,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/history/2023/",
+  "words": 167,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/history/2024/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/events/2022-bonk-christmas-airdrop/",
+  "words": 73,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/events/2023-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bonk/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/",
+  "words": 282,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/history/",
+  "words": 177,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/history/2023/",
+  "words": 234,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/history/2024/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/events/2023-jto-airdrop/",
+  "words": 104,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/events/2023-first-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/jito/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/",
+  "words": 308,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/history/",
+  "words": 175,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/history/2022/",
+  "words": 316,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/history/2025/",
+  "words": 188,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/events/2022-ust-loses-its-peg/",
+  "words": 90,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/events/2022-first-close-in-our-data/",
+  "words": 143,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/events/2022-highest-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/terra-luna-classic/events/2025-lowest-close-after-the-peak/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/",
+  "words": 295,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/history/",
+  "words": 184,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/history/2017/",
+  "words": 104,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/history/2019/",
+  "words": 205,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/history/2021/",
+  "words": 198,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/history/2026/",
+  "words": 195,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/events/2017-bat-token-sale/",
+  "words": 79,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/events/2019-first-close-in-our-data/",
+  "words": 149,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/events/2021-highest-close-in-our-data/",
+  "words": 146,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/basic-attention-token/events/2026-lowest-close-after-the-peak/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/",
+  "words": 253,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/history/",
+  "words": 154,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/history/2021/",
+  "words": 250,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/events/2021-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/events/2021-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/arweave/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/",
+  "words": 281,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/history/",
+  "words": 183,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/history/2021/",
+  "words": 310,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/history/2026/",
+  "words": 201,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/events/2021-ens-airdrop/",
+  "words": 74,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/events/2021-first-close-in-our-data/",
+  "words": 149,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/events/2021-highest-close-in-our-data/",
+  "words": 148,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum-name-service/events/2026-lowest-close-after-the-peak/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/",
+  "words": 254,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/history/",
+  "words": 162,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/history/2023/",
+  "words": 195,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/history/2024/",
+  "words": 188,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/events/2023-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/events/2024-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/floki/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/",
+  "words": 246,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/history/2024/",
+  "words": 258,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/events/2024-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/events/2024-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/eigenlayer/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/",
+  "words": 273,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/history/",
+  "words": 171,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/history/2020/",
+  "words": 232,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/history/2021/",
+  "words": 187,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/events/2020-comp-distribution-begins/",
+  "words": 66,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/events/2020-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/events/2021-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compound/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/",
+  "words": 263,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/history/",
+  "words": 155,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/history/2018/",
+  "words": 188,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/history/2021/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/events/2018-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/events/2021-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/iota/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/",
+  "words": 286,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/history/",
+  "words": 169,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/history/2025/",
+  "words": 272,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/history/2026/",
+  "words": 201,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/events/2025-first-close-in-our-data/",
+  "words": 146,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/events/2025-highest-close-in-our-data/",
+  "words": 147,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sonic/events/2026-lowest-close-after-the-peak/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/",
+  "words": 270,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/history/",
+  "words": 155,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/history/2020/",
+  "words": 188,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/history/2021/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/events/2020-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/events/2021-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/thorchain/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/",
+  "words": 259,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/history/",
+  "words": 161,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/history/2024/",
+  "words": 257,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/history/2026/",
+  "words": 185,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/events/2024-first-close-in-our-data/",
+  "words": 135,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/events/2024-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogwifhat/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/",
+  "words": 255,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/history/",
+  "words": 161,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/history/2024/",
+  "words": 264,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/history/2026/",
+  "words": 189,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/events/2024-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/events/2024-highest-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/akash/events/2026-lowest-close-after-the-peak/",
+  "words": 126,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/",
+  "words": 259,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/history/2019/",
+  "words": 193,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/history/2021/",
+  "words": 186,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/history/2026/",
+  "words": 183,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/events/2019-first-close-in-our-data/",
+  "words": 133,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/events/2021-highest-close-in-our-data/",
+  "words": 134,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/theta/events/2026-lowest-close-after-the-peak/",
+  "words": 124,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/",
+  "words": 315,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/history/",
+  "words": 194,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/history/2020/",
+  "words": 201,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/history/2021/",
+  "words": 197,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/history/2022/",
+  "words": 199,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/history/2025/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/events/2020-first-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/events/2021-highest-close-in-our-data/",
+  "words": 142,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/events/2022-ronin-bridge-hack-disclosed/",
+  "words": 143,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/axie-infinity/events/2025-lowest-close-after-the-peak/",
+  "words": 132,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/",
+  "words": 267,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/history/",
+  "words": 165,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/history/2020/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/history/2021/",
+  "words": 192,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/events/2020-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/events/2021-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/decentraland/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/",
+  "words": 270,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/history/",
+  "words": 165,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/history/2020/",
+  "words": 200,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/history/2021/",
+  "words": 193,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/history/2026/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/events/2020-first-close-in-our-data/",
+  "words": 140,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/events/2021-highest-close-in-our-data/",
+  "words": 141,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/the-sandbox/events/2026-lowest-close-after-the-peak/",
+  "words": 131,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/",
+  "words": 288,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/history/",
+  "words": 181,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/history/2024/",
+  "words": 294,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/events/2024-zk-airdrop/",
+  "words": 105,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/events/2024-first-close-in-our-data/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/events/2024-highest-close-in-our-data/",
+  "words": 138,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/zksync/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/",
+  "words": 255,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/history/",
+  "words": 155,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/history/2017/",
+  "words": 188,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/history/2018/",
+  "words": 181,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/history/2026/",
+  "words": 178,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/events/2017-first-close-in-our-data/",
+  "words": 128,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/events/2018-highest-close-in-our-data/",
+  "words": 129,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/neo/events/2026-lowest-close-after-the-peak/",
+  "words": 119,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/",
+  "words": 249,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/history/",
+  "words": 158,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/history/2021/",
+  "words": 258,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/history/2026/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/events/2021-first-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/events/2021-highest-close-in-our-data/",
+  "words": 131,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/immutable/events/2026-lowest-close-after-the-peak/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/",
+  "words": 253,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/history/",
+  "words": 164,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/history/2019/",
+  "words": 196,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/history/2021/",
+  "words": 190,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/history/2026/",
+  "words": 191,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/events/2019-first-close-in-our-data/",
+  "words": 136,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/events/2021-highest-close-in-our-data/",
+  "words": 137,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/chiliz/events/2026-lowest-close-after-the-peak/",
+  "words": 128,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
   "path": "/guides/what-is-crypto/",
   "words": 370,
   "primary_citations": 3,
@@ -4849,7 +8025,7 @@
  },
  {
   "path": "/coins/",
-  "words": 1024,
+  "words": 1927,
   "primary_citations": 1,
   "dated_facts": true,
   "passes_thin_gate": false,
@@ -4881,7 +8057,7 @@
  },
  {
   "path": "/sources/",
-  "words": 961,
+  "words": 1768,
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
@@ -4905,7 +8081,7 @@
  },
  {
   "path": "/",
-  "words": 1821,
+  "words": 3324,
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
