@@ -42,7 +42,7 @@ from articles import ARTICLES, GLOSSARY, COMPARES, YEAR_INTRO
 from assets_src import CSS, JS
 INDEXABLE = False
 BRAND = "CryptoHistoryBook"; ORIGIN = "https://cryptohistorybook.com"
-LIVE_HOST = "atulitllc.github.io"; BEACON_SITE = "cryptohistorybook"
+LIVE_HOST = "cryptohistorybook.com"; BEACON_SITE = "cryptohistorybook"
 UPDATED = "Oct 14, 2026"; UPDATED_ISO = "2026-10-14"
 OUT = "docs"; ICONS = "/tmp/lucide/package/icons"
 KC = {"launch":"#0ea5e9","rally":"#10b981","crash":"#ef4444","upgrade":"#7c3aed","legal":"#f59e0b","fork":"#ec4899","outage":"#64748b","milestone":"#f97316"}
@@ -209,8 +209,16 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
     html = html.replace("__R__", R)
     assert "\u2014" not in html and "\u2013" not in html, path
     PAGES[path] = html
+# Newsletter provider. Keep enabled False until the Kit account and form exist.
+NEWSLETTER = {"enabled": False, "provider": "kit", "form_id": ""}
 def newsletter():
-    return f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CryptoHistoryBook Letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p><form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
+    nl = NEWSLETTER
+    live = nl["enabled"] and nl["form_id"].strip().isdigit()
+    head = f'''<section class="news reveal" id="newsletter"><h2 style="margin-top:0;color:#fff">{icon("mail")} The CryptoHistoryBook Letter</h2><p>One short email when we add a new timeline or explainer. No hype, no tips.</p>'''
+    if not live:
+        return head + f'''<form class="nl" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">Your email is saved only in this browser for now. Nothing is sent anywhere yet.</p></section>'''
+    act = f"https://app.kit.com/forms/{nl['form_id'].strip()}/subscriptions"
+    return head + f'''<iframe name="nl-frame" title="Newsletter signup" hidden style="display:none"></iframe><form class="nl" data-live="1" action="{act}" method="post" target="nl-frame" novalidate><label class="sr" for="nl-email" hidden>Email</label><input id="nl-email" name="email_address" type="email" placeholder="you@example.com" autocomplete="email" required><button class="btn w" type="submit">{icon("sparkles")}Join the list</button><label class="small" style="width:100%;display:flex;gap:8px;align-items:flex-start;color:rgba(255,255,255,.92)"><input type="checkbox" name="consent" value="yes" required style="margin-top:3px"> <span>I agree to receive The CryptoHistoryBook Letter from Atulit LLC by email. Unsubscribe anytime with one click. See our <a href="__R__privacy/" style="color:#fff">privacy policy</a>.</span></label><div class="msg" role="status" style="width:100%"></div></form><p class="small" style="color:rgba(255,255,255,.85)">You will get a confirmation email first. Your address is stored with our email provider, Kit, and is never sold.</p></section>'''
 def ev_js(c, evs, focus=None, R=""):
     out = []
     for x in evs:
@@ -382,8 +390,9 @@ page("sources/", "Data Sources and Methods", "Where CryptoHistoryBook gets its p
      f'<h1>Data sources and methods</h1><section class="prose"><p>Every price on this site is a daily close (UTC) taken from a free, public exchange API at build time on {UPDATED}. We use one exchange per day, preferring the earliest continuous USD market for each coin, and fill earlier days from Binance USDT pairs only where no USD series was available. Each price shows the exchange, pair and date it came from. When our data does not cover a date, we show no price rather than an estimate.</p><p>Event facts are written in our own words and link to primary sources such as whitepapers, BIPs and EIPs, SEC filings, court dockets, official project blogs and block explorers, plus Wikipedia for background.</p></section><table class="cmp"><thead><tr><th style="background:#334155">Coin</th><th style="background:#7c3aed">Series</th><th style="background:#ec4899">Days</th></tr></thead><tbody>{srcs_rows}</tbody></table>', [("Data sources","sources/")], [("Bitstamp API","https://www.bitstamp.net/api/"),("Coinbase Exchange API","https://docs.cdp.coinbase.com/exchange/"),("Binance Spot API","https://developers.binance.com/docs/binance-spot-api-docs/rest-api")], kind="page")
 page("about/", "About CryptoHistoryBook", "CryptoHistoryBook explains crypto history with dated, sourced events and charts. It is education only and not financial advice.",
      f'<h1>About CryptoHistoryBook</h1><section class="prose"><p>CryptoHistoryBook turns the history of major cryptocurrencies into timelines you can click through. Each event is dated, written in our own words and linked to its sources. Each price is a historical daily close from a named exchange.</p><p>We do not give investment advice, rate coins or predict prices. We do not accept payment to cover a project.</p></section>', [("About","about/")], [], kind="page")
+NL_PRIV = ("If you join The CryptoHistoryBook Letter, your email address and consent are stored with our email provider, Kit (kit.com), used only to send the letter, and never sold. Every email has a one click unsubscribe link." if NEWSLETTER["enabled"] and NEWSLETTER["form_id"].strip().isdigit() else "If you join the newsletter, your email is stored only in your browser\'s local storage. Nothing is sent to us yet.")
 page("privacy/", "Privacy Policy", "CryptoHistoryBook uses first party page view analytics and stores newsletter signups only in your browser. No ads or third party trackers.",
-     f'<h1>Privacy policy</h1><section class="prose"><p>Last updated {UPDATED}.</p><p>We use first party, cookie based page view analytics: two cookies, atulit_vid (a random visitor id) and atulit_sid (a random visit id that resets after 30 minutes of inactivity), record which pages are viewed. The data goes only to our own analytics server. There are no ads and no third party trackers.</p><p>If you join the newsletter, your email is stored only in your browser\'s local storage. Nothing is sent to us yet. Your theme choice is also saved in local storage.</p></section>', [("Privacy","privacy/")], [], kind="page")
+     f'<h1>Privacy policy</h1><section class="prose"><p>Last updated {UPDATED}.</p><p>We use first party, cookie based page view analytics: two cookies, atulit_vid (a random visitor id) and atulit_sid (a random visit id that resets after 30 minutes of inactivity), record which pages are viewed. The data goes only to our own analytics server. There are no ads and no third party trackers.</p><p>{NL_PRIV} Your theme choice is also saved in local storage.</p></section>', [("Privacy","privacy/")], [], kind="page")
 # home
 R = "./"
 cc = "".join(f'''<a class="card coincard reveal" href="{k["slug"]}/"><span class="bar" style="background:linear-gradient(90deg,{k["color"]},{k["color2"]})"></span><div class="top">{coinlogo(c)}<div><h3 style="margin:0">{k["name"]}</h3><span class="small">{k["sym"]} &middot; {len(k["events"])} events</span></div></div><svg class="spark" viewBox="0 0 200 56" preserveAspectRatio="none" data-coin="{c}" data-color="{k["color"]}"></svg><span class="px">{fmt(SER[c]["points"][-1][1])}</span><br><span class="small">{e(plabel(c,SER[c]["points"][-1][0]))}</span></a>''' for c,k in COINS.items())
@@ -417,12 +426,13 @@ for _k,_c in COINS.items():
 for _x in SEARCH:
     if _x["u"] not in _seen: _seen.add(_x["u"]); _idx.append(_x)
 json.dump(_idx, open(OUT+"/search.json","w"), separators=(",",":"))
-nf = PAGES["about/"].replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/cointimelines-proto/'>Go to the home page</a></p>",1)
-open(OUT+"/404.html","w").write(seo.add_beacon(nf.replace('data-root="../"','data-root="/cointimelines-proto/"').replace('href="../','href="/cointimelines-proto/').replace('src="../','src="/cointimelines-proto/')))
+nf = PAGES["about/"].replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/'>Go to the home page</a></p>",1)
+open(OUT+"/404.html","w").write(seo.add_beacon(nf.replace('data-root="../"','data-root="/"').replace('href="../','href="/').replace('src="../','src="/')))
 open(OUT+"/robots.txt","w").write("User-agent: *\nDisallow: /\n")
 open(OUT+"/favicon.svg","w").write(LOGO.replace(' aria-hidden="true"',''))
 open(OUT+"/logo.svg","w").write(LOGO.replace(' aria-hidden="true"',''))
 open(OUT+"/.nojekyll","w").write("")
 json.dump(REPORT, open(OUT+"/../build-report.json","w"), indent=1)
+open(OUT+"/CNAME","w").write("cryptohistorybook.com\n")
 import subprocess; subprocess.run(["python3","icons.py"])
 print("pages", len(PAGES), "thin-gate pass", sum(r["passes_thin_gate"] for r in REPORT))

@@ -22,7 +22,8 @@ i.addEventListener('keydown',function(e){if(e.key==='ArrowDown'||e.key==='ArrowU
 f.addEventListener('submit',function(e){e.preventDefault();load().then(function(){var r=find(i.value),p=sel>=0?res[sel]:r[0];location.href=p?R+p.u:R+'coins/'})});
 document.addEventListener('click',function(e){if(!f.contains(e.target))close()})})})();
 // newsletter
-d.querySelectorAll('form.nl').forEach(function(f){f.onsubmit=function(e){e.preventDefault();var v=f.email.value.trim(),m=f.querySelector('.msg')||f.parentNode.querySelector('.msg');if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){m.textContent='Please enter a valid email address.';return}
+d.querySelectorAll('form.nl').forEach(function(f){f.onsubmit=function(e){var live=f.dataset.live==='1';if(!live)e.preventDefault();var v=(f.email||f.email_address).value.trim(),m=f.querySelector('.msg')||f.parentNode.querySelector('.msg');if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){e.preventDefault();m.textContent='Please enter a valid email address.';return}
+if(live){var c=f.querySelector('[name=consent]');if(c&&!c.checked){e.preventDefault();m.textContent='Please tick the box to agree to receive the letter.';return}m.textContent='Almost done. Check your inbox for a confirmation email and click the link to join The CryptoHistoryBook Letter.';setTimeout(function(){f.reset()},400);return}
 try{var l=JSON.parse(localStorage.getItem('ct-newsletter')||'[]');if(l.indexOf(v)<0)l.push(v);localStorage.setItem('ct-newsletter',JSON.stringify(l))}catch(x){}
 m.textContent='Saved on this device only. Nothing is sent yet; the newsletter has not launched.';f.reset()}});
 // coin filter
