@@ -1,0 +1,1002 @@
+[
+ {
+  "path": "/bitcoin/",
+  "words": 650,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/",
+  "words": 428,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2008/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2009/",
+  "words": 117,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2010/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2012/",
+  "words": 196,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2014/",
+  "words": 203,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2016/",
+  "words": 184,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2017/",
+  "words": 451,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2020/",
+  "words": 282,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2021/",
+  "words": 184,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2022/",
+  "words": 199,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/history/2024/",
+  "words": 295,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2008-whitepaper/",
+  "words": 125,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2009-genesis-block/",
+  "words": 122,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2010-pizza-day/",
+  "words": 191,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2012-halving/",
+  "words": 157,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2014-mt-gox-collapse/",
+  "words": 279,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2016-halving/",
+  "words": 217,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2017-bitcoin-cash-fork/",
+  "words": 242,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2017-segwit-activation/",
+  "words": 184,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2017-peak/",
+  "words": 166,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2020-black-thursday/",
+  "words": 172,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2020-halving/",
+  "words": 206,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2021-taproot/",
+  "words": 148,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2022-ftx-collapse/",
+  "words": 169,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2024-spot-etf-approval/",
+  "words": 245,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/bitcoin/events/2024-halving/",
+  "words": 153,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/",
+  "words": 548,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/",
+  "words": 337,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2014/",
+  "words": 123,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2015/",
+  "words": 115,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2016/",
+  "words": 310,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2018/",
+  "words": 187,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2020/",
+  "words": 200,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2021/",
+  "words": 205,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2022/",
+  "words": 194,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2023/",
+  "words": 190,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/history/2024/",
+  "words": 258,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2014-crowdsale/",
+  "words": 108,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2015-frontier-launch/",
+  "words": 104,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2016-dao-hack/",
+  "words": 250,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2016-dao-fork/",
+  "words": 177,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2018-peak/",
+  "words": 158,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2020-beacon-chain/",
+  "words": 155,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2021-london-eip-1559/",
+  "words": 171,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2022-the-merge/",
+  "words": 232,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2023-shanghai-withdrawals/",
+  "words": 191,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2024-dencun/",
+  "words": 161,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/ethereum/events/2024-spot-ether-etfs/",
+  "words": 138,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/",
+  "words": 428,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/",
+  "words": 222,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/2012/",
+  "words": 125,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/2018/",
+  "words": 184,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/2020/",
+  "words": 208,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/2023/",
+  "words": 221,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/history/2024/",
+  "words": 265,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2012-ledger-launch/",
+  "words": 102,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2018-peak/",
+  "words": 142,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2020-sec-lawsuit/",
+  "words": 255,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2023-ripple-ruling/",
+  "words": 237,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2024-ripple-penalty/",
+  "words": 180,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/xrp/events/2024-election-rally/",
+  "words": 147,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/",
+  "words": 491,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/",
+  "words": 311,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2013/",
+  "words": 121,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2014/",
+  "words": 124,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2019/",
+  "words": 198,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2021/",
+  "words": 426,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2022/",
+  "words": 195,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2023/",
+  "words": 205,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/history/2024/",
+  "words": 198,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2013-launch/",
+  "words": 108,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2014-jamaican-bobsled/",
+  "words": 100,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2019-musk-fav-tweet/",
+  "words": 101,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2021-wallstreetbets-pump/",
+  "words": 161,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2021-peoples-crypto-tweet/",
+  "words": 138,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2021-peak/",
+  "words": 139,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2021-snl/",
+  "words": 223,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2022-twitter-acquisition/",
+  "words": 137,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2023-twitter-logo/",
+  "words": 146,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/events/2024-doge-department/",
+  "words": 135,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/",
+  "words": 463,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/",
+  "words": 265,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2017/",
+  "words": 115,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2020/",
+  "words": 176,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2021/",
+  "words": 265,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2022/",
+  "words": 306,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2023/",
+  "words": 193,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/history/2024/",
+  "words": 202,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2017-proof-of-history/",
+  "words": 84,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2020-mainnet-beta/",
+  "words": 80,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2021-september-outage/",
+  "words": 156,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2021-peak/",
+  "words": 141,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2022-may-outage/",
+  "words": 149,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2022-ftx-collapse/",
+  "words": 235,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2023-february-outage/",
+  "words": 135,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/events/2024-february-outage/",
+  "words": 139,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/guides/what-is-crypto/",
+  "words": 370,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/guides/how-blockchains-work/",
+  "words": 346,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/guides/crypto-wallets/",
+  "words": 294,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/guides/what-is-a-hard-fork/",
+  "words": 327,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/upgrades/segwit/",
+  "words": 261,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/how-did-the-merge-affect-ethereum/",
+  "words": 299,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/guides/xrp-vs-sec-explained/",
+  "words": 343,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/guides/why-doge-pumps/",
+  "words": 276,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/dogecoin/elon-musk-tweet-timeline/",
+  "words": 331,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/solana/outage-history/",
+  "words": 333,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/halving/",
+  "words": 107,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/hard-fork/",
+  "words": 84,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/soft-fork/",
+  "words": 56,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/proof-of-work/",
+  "words": 62,
+  "primary_citations": 1,
+  "dated_facts": false,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/proof-of-stake/",
+  "words": 77,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/security-token/",
+  "words": 73,
+  "primary_citations": 1,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compare/bitcoin-vs-ethereum/",
+  "words": 311,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/compare/ethereum-vs-solana-for-nft-fees/",
+  "words": 382,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/compare/xrp-vs-solana-for-payments/",
+  "words": 365,
+  "primary_citations": 4,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/compare/bitcoin-vs-dogecoin/",
+  "words": 305,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/guides/",
+  "words": 310,
+  "primary_citations": 2,
+  "dated_facts": true,
+  "passes_thin_gate": true,
+  "indexable": false
+ },
+ {
+  "path": "/glossary/",
+  "words": 132,
+  "primary_citations": 2,
+  "dated_facts": false,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/compare/",
+  "words": 151,
+  "primary_citations": 0,
+  "dated_facts": false,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/sources/",
+  "words": 197,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/about/",
+  "words": 60,
+  "primary_citations": 0,
+  "dated_facts": false,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/privacy/",
+  "words": 89,
+  "primary_citations": 0,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ },
+ {
+  "path": "/",
+  "words": 299,
+  "primary_citations": 3,
+  "dated_facts": true,
+  "passes_thin_gate": false,
+  "indexable": false
+ }
+]
