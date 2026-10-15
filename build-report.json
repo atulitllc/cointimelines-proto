@@ -5,7 +5,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/bitcoin/history/",
@@ -13,7 +13,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/bitcoin/history/2008/",
@@ -69,7 +69,7 @@
   "primary_citations": 4,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/bitcoin/history/2020/",
@@ -229,7 +229,7 @@
   "primary_citations": 4,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethereum/history/",
@@ -237,7 +237,7 @@
   "primary_citations": 4,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethereum/history/2014/",
@@ -261,7 +261,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethereum/history/2018/",
@@ -405,7 +405,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/xrp/history/",
@@ -509,7 +509,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/dogecoin/history/",
@@ -517,7 +517,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/dogecoin/history/2013/",
@@ -661,7 +661,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/solana/history/",
@@ -701,7 +701,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/solana/history/2023/",
@@ -789,7 +789,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/bnb/history/",
@@ -909,7 +909,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/tron/history/",
@@ -925,7 +925,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/tron/history/2023/",
@@ -1005,7 +1005,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/zcash/history/",
@@ -1173,7 +1173,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/monero/history/",
@@ -1269,7 +1269,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/chainlink/history/",
@@ -1373,7 +1373,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/cardano/history/",
@@ -1573,7 +1573,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/stellar/history/",
@@ -1765,7 +1765,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/bitcoin-cash/history/",
@@ -1837,7 +1837,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/litecoin/history/",
@@ -1965,7 +1965,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/uniswap/history/",
@@ -2061,7 +2061,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/avalanche/history/",
@@ -2141,7 +2141,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/sui/history/",
@@ -2229,7 +2229,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/toncoin/history/",
@@ -2389,7 +2389,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/shiba-inu/history/",
@@ -2405,7 +2405,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/shiba-inu/history/2023/",
@@ -2469,7 +2469,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/cronos/history/",
@@ -2485,7 +2485,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/cronos/history/2026/",
@@ -2557,7 +2557,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethena/history/2026/",
@@ -2613,7 +2613,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/aave/history/",
@@ -2861,7 +2861,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/polkadot/history/",
@@ -3309,7 +3309,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/internet-computer/history/2026/",
@@ -3437,7 +3437,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethereum-classic/history/",
@@ -3549,7 +3549,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/arbitrum/history/",
@@ -3853,7 +3853,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/polygon/history/",
@@ -3885,7 +3885,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/polygon/history/2026/",
@@ -4021,7 +4021,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/cosmos/history/",
@@ -4189,7 +4189,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/stacks/history/",
@@ -4357,7 +4357,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/dash/history/",
@@ -5221,7 +5221,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/layerzero/history/2026/",
@@ -5533,7 +5533,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/starknet/history/2026/",
@@ -5741,7 +5741,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/official-trump/history/2026/",
@@ -6597,7 +6597,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/terra-luna-classic/history/",
@@ -6613,7 +6613,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/terra-luna-classic/history/2025/",
@@ -6813,7 +6813,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/ethereum-name-service/history/2026/",
@@ -7413,7 +7413,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/axie-infinity/history/",
@@ -7869,7 +7869,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/guides/how-blockchains-work/",
@@ -7877,7 +7877,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/guides/crypto-wallets/",
@@ -7893,7 +7893,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/upgrades/segwit/",
@@ -7917,7 +7917,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/guides/why-doge-pumps/",
@@ -7941,7 +7941,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/glossary/halving/",
@@ -7997,7 +7997,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/compare/ethereum-vs-solana-for-nft-fees/",
@@ -8005,7 +8005,7 @@
   "primary_citations": 4,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/compare/xrp-vs-solana-for-payments/",
@@ -8013,7 +8013,7 @@
   "primary_citations": 4,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/compare/bitcoin-vs-dogecoin/",
@@ -8021,7 +8021,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/coins/",
@@ -8037,7 +8037,7 @@
   "primary_citations": 2,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/glossary/",
@@ -8061,7 +8061,7 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  },
  {
   "path": "/about/",
@@ -8085,6 +8085,6 @@
   "primary_citations": 3,
   "dated_facts": true,
   "passes_thin_gate": true,
-  "indexable": false
+  "indexable": true
  }
 ]

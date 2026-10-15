@@ -1,4 +1,4 @@
-"""CryptoHistoryBook static build. INDEXABLE gates robots/noindex for the whole site (stays False)."""
+"""CryptoHistoryBook static build. INDEXABLE gates robots/noindex for the whole site (opened Oct 15, 2026)."""
 import json, os, re, shutil, sys, html as H, datetime as dt
 sys.path.insert(0, "/workspace/atulit-petcare-proto")
 import seo  # reuse Atulit beacon template
@@ -40,7 +40,7 @@ for _e in EVENTS:
     _e["sources"] = _fixsrc(_e["sources"], COINS[_e["coin"]]["primary"][:2])
 from articles import ARTICLES, GLOSSARY, COMPARES, YEAR_INTRO
 from assets_src import CSS, JS
-INDEXABLE = False
+INDEXABLE = True
 BRAND = "CryptoHistoryBook"; ORIGIN = "https://cryptohistorybook.com"
 LIVE_HOST = "cryptohistorybook.com"; BEACON_SITE = "cryptohistorybook"
 UPDATED = "Oct 14, 2026"; UPDATED_ISO = "2026-10-14"
@@ -426,9 +426,13 @@ for _k,_c in COINS.items():
 for _x in SEARCH:
     if _x["u"] not in _seen: _seen.add(_x["u"]); _idx.append(_x)
 json.dump(_idx, open(OUT+"/search.json","w"), separators=(",",":"))
-nf = PAGES["about/"].replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/'>Go to the home page</a></p>",1)
+nf = re.sub(r'content="index,follow"', 'content="noindex,follow"', PAGES["about/"]).replace("<h1>About CryptoHistoryBook</h1>", "<h1>Page not found</h1><p><a href='/'>Go to the home page</a></p>",1)
 open(OUT+"/404.html","w").write(seo.add_beacon(nf.replace('data-root="../"','data-root="/"').replace('href="../','href="/').replace('src="../','src="/')))
-open(OUT+"/robots.txt","w").write("User-agent: *\nDisallow: /\n")
+open(OUT+"/robots.txt","w").write("User-agent: *\nAllow: /\n" + (f"\nSitemap: {ORIGIN}/sitemap.xml\n" if INDEXABLE else ""))
+_sm = [r for r in REPORT if r["indexable"]]
+if INDEXABLE:
+    open(OUT+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{ORIGIN}{r['path']}</loc><lastmod>{UPDATED_ISO}</lastmod></url>\n" for r in _sm) + "</urlset>\n")
+elif os.path.exists(OUT+"/sitemap.xml"): os.remove(OUT+"/sitemap.xml")
 open(OUT+"/favicon.svg","w").write(LOGO.replace(' aria-hidden="true"',''))
 open(OUT+"/logo.svg","w").write(LOGO.replace(' aria-hidden="true"',''))
 open(OUT+"/.nojekyll","w").write("")
