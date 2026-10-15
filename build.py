@@ -175,7 +175,7 @@ def page(path, title, desc, body, crumbs, srcs, ld=(), kind="page", primary_coun
     dated = bool(re.search(r"\b(19|20)\d\d\b", text))
     gate = words >= 300 and prim >= 2 and dated
     REPORT.append(dict(path="/"+path, words=words, primary_citations=prim, dated_facts=dated, passes_thin_gate=gate, indexable=INDEXABLE and gate))
-    robots = "index,follow" if (INDEXABLE and gate) else "noindex,nofollow"
+    robots = "index,follow" if (INDEXABLE and gate) else "noindex,follow"
     navh = "".join(f'<a href="{R}{p}">{icon(i)}{n}</a>' for p,i,n in NAV)
     upd = f'<p class="upd">{icon("calendar")}Updated <time datetime="{UPDATED_ISO}">{UPDATED}</time></p>'
     html = f'''<!doctype html><html lang="en" data-root="{R}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
